@@ -1,0 +1,2496 @@
+2019/09/02 06:06:43 PM Scrapy 1.6.0 started (bot: Crawlall)
+2019/09/02 06:06:43 PM Versions: lxml 4.3.3.0, libxml2 2.9.9, cssselect 1.0.3, parsel 1.5.1, w3lib 1.20.0, Twisted 19.2.0, Python 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 16:52:21) - [Clang 6.0 (clang-600.0.57)], pyOpenSSL 19.0.0 (OpenSSL 1.1.1b  26 Feb 2019), cryptography 2.6.1, Platform Darwin-18.2.0-x86_64-i386-64bit
+2019/09/02 06:06:43 PM Overridden settings: {'BOT_NAME': 'Crawlall', 'COMMANDS_MODULE': 'Crawlall.commands', 'NEWSPIDER_MODULE': 'Crawlall.spiders', 'SPIDER_MODULES': ['Crawlall.spiders']}
+2019/09/02 06:06:43 PM Telnet Password: f99d71148c8e57c8
+2019/09/02 06:06:44 PM Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019/09/02 06:06:44 PM Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019/09/02 06:06:44 PM Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019/09/02 06:06:44 PM Enabled item pipelines:
+[]
+2019/09/02 06:06:44 PM Spider opened
+2019/09/02 06:06:44 PM Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019/09/02 06:06:44 PM Telnet console listening on 127.0.0.1:6023
+2019/09/02 06:06:44 PM Overridden settings: {'BOT_NAME': 'Crawlall', 'COMMANDS_MODULE': 'Crawlall.commands', 'NEWSPIDER_MODULE': 'Crawlall.spiders', 'SPIDER_MODULES': ['Crawlall.spiders']}
+2019/09/02 06:06:44 PM Telnet Password: 237d40c494a49fc8
+2019/09/02 06:06:44 PM Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.memusage.MemoryUsage',
+ 'scrapy.extensions.logstats.LogStats']
+2019/09/02 06:06:44 PM Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2019/09/02 06:06:44 PM Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2019/09/02 06:06:44 PM Enabled item pipelines:
+[]
+2019/09/02 06:06:44 PM Spider opened
+2019/09/02 06:06:44 PM Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2019/09/02 06:06:44 PM Telnet console listening on 127.0.0.1:6024
+2019/09/02 06:06:44 PM Crawled (200) <GET https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1> (referer: None)
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '重庆欧尔矿业有限责任公司所属的位于彭水自治县保家镇大河坝村1组的工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601192119071.htm',
+ 'consultPrice': 19941900.0,
+ 'currentPrice': 17050324.5,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195308}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '马鞍山市雨山区天门大道南段1188号工业房地产及附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601007235418.htm',
+ 'consultPrice': 97234200.0,
+ 'currentPrice': 54451152.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195308}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '天津空港经济区航天路与西七道交口（睿蓝科技项目）工业在建工程',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600859597193.htm',
+ 'consultPrice': 56120000.0,
+ 'currentPrice': 31427200.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195308}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '海阳市小纪镇驻地刘建春名下房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600803789235.htm',
+ 'consultPrice': 2354859.0,
+ 'currentPrice': 1401140.85,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195308}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '乐山市市中区土主镇红岩坝村六组369号、569号、478号的工业厂房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600752877284.htm',
+ 'consultPrice': 9087983.0,
+ 'currentPrice': 6400000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195308}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '重庆市永川区工业园区大安组团内的工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600736517510.htm',
+ 'consultPrice': 3741900.0,
+ 'currentPrice': 2980000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195308}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '王红云名下的位于罗平县九龙镇排灌站九龙大道旁的房屋、土地、构筑物及机械设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600662221133.htm',
+ 'consultPrice': 4597823.0,
+ 'currentPrice': 3678258.4,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195307}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '徐州市贾汪区瑞天纺织有限公司房屋及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600450052363.htm',
+ 'consultPrice': 18985300.0,
+ 'currentPrice': 10631768.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195307}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '青岛市莱西市望城街道办事处后塔埠头村工业用地及地上房产一宗',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600309412772.htm',
+ 'consultPrice': 2339700.0,
+ 'currentPrice': 1871760.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195307}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '江苏安保车业有限公司位于盱眙县经济开发区泗水路南侧的工业房地产及附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600232883845.htm',
+ 'consultPrice': 4711100.0,
+ 'currentPrice': 3317770.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195307}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '诸暨市浣东街道双桥村的一宗国有土地使用权、地上建筑物及附属物（含室内装饰装修）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600227179192.htm',
+ 'consultPrice': 11837091.0,
+ 'currentPrice': 8285964.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195307}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '浙江海王电器有限公司所有的位于武义县壶山街道黄龙工业功能区的房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600213027580.htm',
+ 'consultPrice': 25430000.0,
+ 'currentPrice': 17801000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195307}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '江油市太平镇德胜南路210号1栋1,2-4,5楼、1栋3楼两处房屋...',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600208579153.htm',
+ 'consultPrice': 11080515.0,
+ 'currentPrice': 11080515.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195307}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '温岭市石塘镇上马工业区启明路西侧的不动产及所有的机器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600131355913.htm',
+ 'consultPrice': 68648912.0,
+ 'currentPrice': 48500000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195307}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '沭阳县常阳木制品厂所有的钢结构连体、四层砖混框架结构厂房、土地使用权及附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600095987777.htm',
+ 'consultPrice': 5709400.0,
+ 'currentPrice': 4000000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195307}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '位于嵊州市仙湖路1468号工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600051734952.htm',
+ 'consultPrice': 37966200.0,
+ 'currentPrice': 26700000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195307}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '江苏宝丽斯新材料有限公司名下位于盐城市盐都区学富镇时杨居委会三组的工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600049686830.htm',
+ 'consultPrice': 25339800.0,
+ 'currentPrice': 17737860.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195306}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '福建省宏宇牧业发展有限公司占有的建筑物及国有建设用地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599995619018.htm',
+ 'consultPrice': 10043900.0,
+ 'currentPrice': 8035120.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195306}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '宿迁市大全物流有限公司所有的位于宿迁市湖滨新区彩塑路143号房地产及附属物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599981810456.htm',
+ 'consultPrice': 1474300.0,
+ 'currentPrice': 1047010.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195306}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '汕头市潮阳区谷饶大坑工业区（坐东向西）的房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599976418998.htm',
+ 'consultPrice': 11800000.0,
+ 'currentPrice': 8260000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195306}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '浙江绿迪服饰有限公司所有的义乌市苏华街50号的工业房地产（土地8002平米）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599887662557.htm',
+ 'consultPrice': 36100000.0,
+ 'currentPrice': 27580000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195306}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '浙江艺灿建材有限公司所有的义乌市上溪镇的工业房地产（土地5495平米）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599885574399.htm',
+ 'consultPrice': 16950000.0,
+ 'currentPrice': 12720000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195306}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '天津市静海区梁头镇东柳木村内、黑龙港河东侧的房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599882970028.htm',
+ 'consultPrice': 5632500.0,
+ 'currentPrice': 3942800.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195306}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '嘉善县西塘镇铧淳路36号房产、土地使用权等资产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599882474634.htm',
+ 'consultPrice': 24375740.0,
+ 'currentPrice': 34000000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195306}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '天津市开发区西区中南四街113号房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599851913240.htm',
+ 'consultPrice': 45090700.0,
+ 'currentPrice': 31563490.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195306}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '泰兴市奥新装卸运输机械厂的土地使用权、房屋建筑等资产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599841370414.htm',
+ 'consultPrice': 2127420.0,
+ 'currentPrice': 1810200.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195306}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '（破）浙江福克斯制衣有限公司的土地、厂房、生产及办公设备、存货',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599835766043.htm',
+ 'consultPrice': 11187452.0,
+ 'currentPrice': 11000000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195305}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '无锡亚奥线缆有限公司位于官林镇杨舍村的资产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599815457270.htm',
+ 'consultPrice': 10301700.0,
+ 'currentPrice': 7301190.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195305}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '明光市苏巷镇工业园区（纬八路以东）厂房、办公楼及工业用地、附属物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599775073702.htm',
+ 'consultPrice': 7000000.0,
+ 'currentPrice': 7000000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195305}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '威海市荣成市宁津富甲路809号1号楼房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599709069215.htm',
+ 'consultPrice': 2149500.0,
+ 'currentPrice': 1719600.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195305}
+2019/09/02 06:06:44 PM Scraped from <200 https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1>
+{'assetstatus': 'doing',
+ 'assettitle': '（破）厂房、宿舍及国有土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599685197618.htm',
+ 'consultPrice': 15572200.0,
+ 'currentPrice': 20000000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57195305}
+2019/09/02 06:06:45 PM Crawled (200) <GET https://www.prologis.cn/about/features?title=&page=1> (referer: None)
+2019/09/02 06:06:45 PM Crawled (200) <GET https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2> (referer: https://sf.taobao.com/item_list.htm?spm=a213w.7398504.pagination.6.562428d92AM3Kh&category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=1)
+2019/09/02 06:06:45 PM Starting new HTTPS connection (1): www.prologis.cn:443
+2019/09/02 06:06:45 PM https://www.prologis.cn:443 "GET /about/features?title=&page=1 HTTP/1.1" 200 None
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/dianzishangwutudexiquehezuihouchudiansheshilast-touchtmdexingqi',
+ 'newstitle': '电子商务，土地稀缺和最后触点设施（LastTouch™）的兴起',
+ 'newszhaiyao': '为了实现货物交付的快速高效，电商企业需要毗邻终端消费者的分销中心。由此，安博在全球范围内拥有土地以期满足客户需求。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/Sixth_Annual_Global_CEO_Council',
+ 'newstitle': '中国国家主席和安博全球总裁出席“全球CEO委员会”第六届圆桌峰会',
+ 'newszhaiyao': '习主席会见全球知名跨国企业负责人，强调中国在全球经济中的关键角色作用，并认可安博公司所做出的贡献。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/anboheweilaishangpinliutong',
+ 'newstitle': '安博和未来商品流通',
+ 'newszhaiyao': '未来的商品流通有关于安博如何看待自动化、自动驾驶汽车、物联网和其他快速发展的技术，这些技术将很快改变工业物流行业的现状。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/anbozaizhongguo',
+ 'newstitle': '安博在中国',
+ 'newszhaiyao': '在中国最具战略意义的区域为客户提供国际标准的现代化物流仓储设施。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/anbozhongqingliangjiangwuliuzhongxin',
+ 'newstitle': '安博重庆两江物流中心',
+ 'newszhaiyao': '该物流中心包括4栋单层和4栋双层仓库，可租赁面积超过183,000平方米。该物流中心位于重庆市东北部两江新区的鱼复工业园内，距市中心22公里，距机场14公里，距河港仅3公里。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/anbochengdoulongquanwuliuzhongxin',
+ 'newstitle': '安博成都龙泉物流中心',
+ 'newszhaiyao': '该物流中心由七栋两层仓库组成，竣工之后可租赁面积超过264,000平方米，位于成都市东南方向的龙泉物流园区和国家经济技术开发区内。该开发区是成都最大的生产制造基地，也是成渝经济走廊的入口。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/2018anboquanqiuzhiyuanfuwuri',
+ 'newstitle': '2018安博全球志愿服务日',
+ 'newszhaiyao': '每年五月的第三个周五，是Prologis安博全球志愿服务日（IMPACTDay）。这一天，安博全球所有办公室同事与当地社区的慈善机构一起开展志愿活动，回馈社区，体现了安博的核心价值，即诚信、师友、热情、负责、勇气和团队精神。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/shuangshiyikehufuwuchuseshoudaorenke',
+ 'newstitle': '“双十一”客户服务出色受到认可',
+ 'newszhaiyao': '安博历来崇尚为客户提供卓越服务，双十一期间的出色表现再次得到多家客户的认可。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/anborongyingdianshangwuliushifanyuanquchenghao',
+ 'newstitle': '安博荣膺“电商物流示范园区”称号',
+ 'newszhaiyao': '第七届电子商务与物流企业家年会上，中国电子商务协会授予安博中国“2017年度电商物流示范园区”称号。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/anbowuyejinglidefanyigongzuozhize',
+ 'newstitle': '安博物业经理的泛义工作职责',
+ 'newszhaiyao': '安博物业经理专注客户需要。他们致力解决问题并从全球同事那里学习经验。对于他们，没有一个项目太过于复杂，也没有一个时间表太过于紧急。他们为照顾客户的需求竭尽全力。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://www.prologis.cn/about/features?title=&page=1>
+{'newslink': 'https://www.prologis.cn/logistics-industry-feature/daoluanquan-renzhongdaoyuan',
+ 'newstitle': '道路安全任重道远',
+ 'newszhaiyao': '卡车将商品送往各地，为人们的日常生活提供便利。虽然卡车在全球供应链和当地配送的过程中不可或缺，但现实中往往会对通往相邻地区卡车数量的增加加以控制。而当卡车发生事故时更是饱受人们诟病。在中国，每年约有20万人在道路交通事故中丧生，运载车辆事故更是屡见不鲜。'}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '（破）安吉亚通纸业有限公司所有的位于安吉县孝丰镇下汤村的房屋建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599680437643.htm',
+ 'consultPrice': 12463500.0,
+ 'currentPrice': 8000000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57194844}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '紫竹恋纺织品进出口有限公司所有的位于悦潼路四层钢混结构厂房、土地使用权及附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599617481400.htm',
+ 'consultPrice': 4422000.0,
+ 'currentPrice': 3096000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57194844}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '兴化市申鹏金属铸造有限公司位于兴化市沈伦镇沈南村工业园区房地产、场内设备、存货',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599571429667.htm',
+ 'consultPrice': 12964320.0,
+ 'currentPrice': 9075024.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57194844}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '扬州市邗江工业园兆元路(现改为祥园路)东侧不动产(含附属财产)',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599540953661.htm',
+ 'consultPrice': 50840600.0,
+ 'currentPrice': 35590000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57194844}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '无锡金昌箱包有限公司的整体资产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599470796025.htm',
+ 'consultPrice': 13202500.0,
+ 'currentPrice': 9241750.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57194844}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '义乌市天虹花边有限公司的义乌市义东工业园区（现银海路1336号）的工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599409520497.htm',
+ 'consultPrice': 49710000.0,
+ 'currentPrice': 37690000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57194843}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '张家港市金港镇保税区福建路东侧，上海路南侧的房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599331436209.htm',
+ 'consultPrice': 42989748.0,
+ 'currentPrice': 30100000.0,
+ 'end': 1567476000000,
+ 'start': 1567389600000,
+ 'timeToEnd': 57194843}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '重庆市云阳县人和街道木古村2组工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600382576104.htm',
+ 'consultPrice': 10083100.0,
+ 'currentPrice': 5646536.0,
+ 'end': 1572660000000,
+ 'start': 1567476000000,
+ 'timeToEnd': 5241194843}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '象山县爵溪街道新瀛路、北塘（现为爵溪街道新瀛路82号）的房地产及废水收集管网',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600209451085.htm',
+ 'consultPrice': 21910600.0,
+ 'currentPrice': 15338000.0,
+ 'end': 1567562400000,
+ 'start': 1567476000000,
+ 'timeToEnd': 143594843}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '枝江市华胜塑业有限责任公司厂房、土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600207447898.htm',
+ 'consultPrice': 11014398.7,
+ 'currentPrice': 7710080.0,
+ 'end': 1567562400000,
+ 'start': 1567476000000,
+ 'timeToEnd': 143594843}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '铸一阀业公司位于临海头门港新区管理委员会北洋十一路1号的土地使用权及其地上建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600166071610.htm',
+ 'consultPrice': 51240000.0,
+ 'currentPrice': 40992000.0,
+ 'end': 1567562400000,
+ 'start': 1567476000000,
+ 'timeToEnd': 143594843}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '浙江百基不锈钢有限公司和浙江百基机械有限公司位于上盘镇的土地使用权及其地上建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599907074712.htm',
+ 'consultPrice': 72496634.0,
+ 'currentPrice': 58000000.0,
+ 'end': 1567562400000,
+ 'start': 1567476000000,
+ 'timeToEnd': 143594843}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '浏阳市集里街道办事处八仙村杨家组国土使用权及其7栋建筑物、7项构筑物和4项附属物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599758181853.htm',
+ 'consultPrice': 18247800.0,
+ 'currentPrice': 12773460.0,
+ 'end': 1567562400000,
+ 'start': 1567476000000,
+ 'timeToEnd': 143594843}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '江阴市利港镇西利路86号房产、土地（含无证房产、附属物等）及机器设备（详见清单）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599588320521.htm',
+ 'consultPrice': 75185100.0,
+ 'currentPrice': 52630000.0,
+ 'end': 1567562400000,
+ 'start': 1567476000000,
+ 'timeToEnd': 143594843}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '桦南县鸿洋物流有限公司所有位于黑龙江省桦南县双果北路西侧热电厂北侧的工业交通仓库',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597096291602.htm',
+ 'consultPrice': 489983.0,
+ 'currentPrice': 352787.4,
+ 'end': 1567476000000,
+ 'start': 1562292000000,
+ 'timeToEnd': 57194842}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '桦南县鸿洋物流有限公司所有的位于黑龙江省桦南县鸿洋物流有限公司院内工业交通仓库',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597095911446.htm',
+ 'consultPrice': 466650.0,
+ 'currentPrice': 335988.0,
+ 'end': 1567476000000,
+ 'start': 1562292000000,
+ 'timeToEnd': 57194842}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '腾振泉位于武城县滕庄镇开发区工业房产及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/596820973747.htm',
+ 'consultPrice': 5479500.0,
+ 'currentPrice': 4160000.0,
+ 'end': 1567476000000,
+ 'start': 1562292000000,
+ 'timeToEnd': 57194842}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '安陆市李店镇十里村工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/596722449968.htm',
+ 'consultPrice': 543000.0,
+ 'currentPrice': 515850.0,
+ 'end': 1567476000000,
+ 'start': 1562292000000,
+ 'timeToEnd': 57194842}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '被执行人福建艾和工艺品有限公司名下所有的坐落于松溪县河东乡大布村八房山工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/596645556019.htm',
+ 'consultPrice': 15577800.0,
+ 'currentPrice': 9969792.0,
+ 'end': 1567476000000,
+ 'start': 1562292000000,
+ 'timeToEnd': 57194842}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '德州腾宇玻璃钢制品有限公司位于武城县滕庄镇开发区工业房产及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/596586876243.htm',
+ 'consultPrice': 6907900.0,
+ 'currentPrice': 5249600.0,
+ 'end': 1567476000000,
+ 'start': 1562292000000,
+ 'timeToEnd': 57194842}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '成都经济技术开发区车城东六路299号2栋1楼1号的厂房、门卫室、办公楼等',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599958974630.htm',
+ 'consultPrice': 17485500.0,
+ 'currentPrice': 12239850.0,
+ 'end': 1567580400000,
+ 'start': 1567494000000,
+ 'timeToEnd': 161594842}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '衡阳县现代米业有限责任公司的6栋工业、办公房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601219634996.htm',
+ 'consultPrice': 15209800.0,
+ 'currentPrice': 10951056.0,
+ 'end': 1567648800000,
+ 'start': 1567562400000,
+ 'timeToEnd': 229994842}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '安徽旷能电池电源有限公司位于和县历阳镇经济开发区已办证工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601185779399.htm',
+ 'consultPrice': 13544427.0,
+ 'currentPrice': 7600000.0,
+ 'end': 1567648800000,
+ 'start': 1567562400000,
+ 'timeToEnd': 229994842}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '库伦旗兴农粮油购销有限责任公司房产、土地及地面构筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600953498978.htm',
+ 'consultPrice': 5745074.0,
+ 'currentPrice': 4596059.2,
+ 'end': 1567648800000,
+ 'start': 1567562400000,
+ 'timeToEnd': 229994842}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '靖江市东兴镇成德村二组、合兴村北合六组的7-12幢房产及土地使用价值',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600798217855.htm',
+ 'consultPrice': 12036900.0,
+ 'currentPrice': 7710000.0,
+ 'end': 1572746400000,
+ 'start': 1567562400000,
+ 'timeToEnd': 5327594841}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）江阴威威塑胶有限公司-不动产、机器设备、办公家具等',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600776900830.htm',
+ 'consultPrice': 9831890.0,
+ 'currentPrice': 8850000.0,
+ 'end': 1567648800000,
+ 'start': 1567562400000,
+ 'timeToEnd': 229994841}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '山东澳星工矿设备有限公司名下的国有土地使用权及房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600766672792.htm',
+ 'consultPrice': 19103051.0,
+ 'currentPrice': 10697708.56,
+ 'end': 1567648800000,
+ 'start': 1567562400000,
+ 'timeToEnd': 229994841}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '位于沈阳市沈北新区蒲河路83-17号厂房房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599707161014.htm',
+ 'consultPrice': 3421651.0,
+ 'currentPrice': 3079486.0,
+ 'end': 1567648800000,
+ 'start': 1567562400000,
+ 'timeToEnd': 229994841}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '沈阳市沈北新区蒲河路83-15号厂房房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599480292560.htm',
+ 'consultPrice': 4207480.0,
+ 'currentPrice': 3786732.0,
+ 'end': 1567648800000,
+ 'start': 1567562400000,
+ 'timeToEnd': 229994841}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'todo',
+ 'assettitle': '兴化市城东镇工业集中区的房地产 （含不可移动装饰装修及附属物）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599452628919.htm',
+ 'consultPrice': 3100870.0,
+ 'currentPrice': 2170609.0,
+ 'end': 1567648800000,
+ 'start': 1567562400000,
+ 'timeToEnd': 229994841}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '泰宁县开善乡池潭村泰宁县绿山大有纸业有限公司的房产、设备及相应国有建设用地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597360035205.htm',
+ 'consultPrice': 13296800.0,
+ 'currentPrice': 7446208.0,
+ 'end': 1567562400000,
+ 'start': 1562378400000,
+ 'timeToEnd': 143594841}
+2019/09/02 06:06:45 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2>
+{'assetstatus': 'doing',
+ 'assettitle': '烟台市福山区门楼镇福桃路西侧周家岘北及福桃路东侧石臼村西房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597253083868.htm',
+ 'consultPrice': 37931252.5,
+ 'currentPrice': 21241501.4,
+ 'end': 1567562400000,
+ 'start': 1562378400000,
+ 'timeToEnd': 143594841}
+2019/09/02 06:06:46 PM Crawled (200) <GET https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3> (referer: https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=2)
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'doing',
+ 'assettitle': '福安市城南化蛟国有林场大洋垱地块1、2、3、4、5、6、7号楼',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597134207857.htm',
+ 'consultPrice': 8265000.0,
+ 'currentPrice': 5290000.0,
+ 'end': 1567562400000,
+ 'start': 1562378400000,
+ 'timeToEnd': 143593941}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '位于松滋市洈水镇建设街040号的房屋建筑物、机器设备、林木资产及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600981657207.htm',
+ 'consultPrice': 2003540.0,
+ 'currentPrice': 1620000.0,
+ 'end': 1567656000000,
+ 'start': 1567569600000,
+ 'timeToEnd': 237193941}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '焦作市解放区人民路398号都市花园A区5号楼28号房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601511015857.htm',
+ 'consultPrice': 5872500.0,
+ 'currentPrice': 3288600.0,
+ 'end': 1572832800000,
+ 'start': 1567648800000,
+ 'timeToEnd': 5413993941}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '余姚市临山镇临浦村、临山镇临海浦中村的工业房地产及地上建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601466779949.htm',
+ 'consultPrice': 12498200.0,
+ 'currentPrice': 7000000.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393940}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '青州市融丰投资担保有限公司位于云门山北路1342号房产、土地使用权及地上附属物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601461603209.htm',
+ 'consultPrice': 13146511.0,
+ 'currentPrice': 7362046.16,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393940}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '武隆县白马工业园区工业用地及地上构筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601446855286.htm',
+ 'consultPrice': 7776500.0,
+ 'currentPrice': 4976960.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393940}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '晋江市安海镇桐林村的土地、房屋建（构）筑物及变压器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601441359872.htm',
+ 'consultPrice': 20344600.0,
+ 'currentPrice': 11392976.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393940}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '新乡市裕丰针纺制衣有限公司位于新乡县大召营镇大召营村工业区的厂房及附属物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601399891277.htm',
+ 'consultPrice': 2875067.0,
+ 'currentPrice': 2587560.0,
+ 'end': 1572832800000,
+ 'start': 1567648800000,
+ 'timeToEnd': 5413993940}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '权利人天门市正太精密机械有限公司所属的位于天门市皂市镇何岭村的两处房产及一宗土地',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601378035689.htm',
+ 'consultPrice': 4900200.0,
+ 'currentPrice': 3253732.8,
+ 'end': 1572832800000,
+ 'start': 1567648800000,
+ 'timeToEnd': 5413993940}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '宿迁市经济开发区通达大道西侧603室3#厂房及宿迁市开发区大道南侧土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601321558746.htm',
+ 'consultPrice': 18287600.0,
+ 'currentPrice': 10280000.0,
+ 'end': 1572832800000,
+ 'start': 1567648800000,
+ 'timeToEnd': 5413993940}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '贵溪市工业园贵八路以北、南兴一路以东房屋、土地使用权、附属物及公司拥有的机器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601319662504.htm',
+ 'consultPrice': 13719870.0,
+ 'currentPrice': 8780717.0,
+ 'end': 1572832800000,
+ 'start': 1567648800000,
+ 'timeToEnd': 5413993940}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '建宁县濉溪镇斗埕村工业园区1-7幢、9幢、10幢、办公楼、2#职工宿舍楼',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601283026557.htm',
+ 'consultPrice': 67738696.0,
+ 'currentPrice': 37933671.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393940}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '陕西省旬阳县构元镇构元社区四组6幢房屋',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601279594059.htm',
+ 'consultPrice': 480207.0,
+ 'currentPrice': 432186.3,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393940}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '徐州市昊月农业发展有限公司所有的厂房、地上附属物（不包含土地使用权）及设备设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601270318213.htm',
+ 'consultPrice': 4883700.0,
+ 'currentPrice': 2734872.0,
+ 'end': 1572832800000,
+ 'start': 1567648800000,
+ 'timeToEnd': 5413993939}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '泰安科诺型钢股份有限公司名下泰安市岱岳区满庄镇新庄村土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601253006548.htm',
+ 'consultPrice': 17409200.0,
+ 'currentPrice': 11838256.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393939}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '会昌县奥普斯光电科技有限公司名下土地两宗建筑四栋',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601203414897.htm',
+ 'consultPrice': 19718600.0,
+ 'currentPrice': 12619904.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393939}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '位于江永县工业园区内科威实业有限公司的厂房、土地',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601115989906.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 8800000.0,
+ 'end': 1572832800000,
+ 'start': 1567648800000,
+ 'timeToEnd': 5413993939}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '拍卖项城市益明食用油有限公司厂房及设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601086397950.htm',
+ 'consultPrice': 38460000.0,
+ 'currentPrice': 38000000.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393939}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '大渡口镇大桥村大渡口工业园幸福路08号1幢、2幢工业用房及土地使用权（整体拍卖）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601071077273.htm',
+ 'consultPrice': 13478500.0,
+ 'currentPrice': 10782800.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393939}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '成都撞球小子服饰有限公司位于彭州市致和镇护贤南路139号25栋1-5层3号的厂房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601070085366.htm',
+ 'consultPrice': 2328700.0,
+ 'currentPrice': 1320000.0,
+ 'end': 1572832800000,
+ 'start': 1567648800000,
+ 'timeToEnd': 5413993939}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '扬州三和赛鸽中心位于扬州市邗江区公道镇欧阳村工业房地产及国有土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601055333202.htm',
+ 'consultPrice': 7003500.0,
+ 'currentPrice': 3150000.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393939}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）吴江市恒鑫经编织造有限公司名下位于平望镇复兴村的房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601009230633.htm',
+ 'consultPrice': 9366000.0,
+ 'currentPrice': 9366000.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393939}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '草塔镇下市头村杨如塘的工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601000621378.htm',
+ 'consultPrice': 22918300.0,
+ 'currentPrice': 12900000.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393939}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '都昌县新妙湖大道36号工业厂房及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600998922705.htm',
+ 'consultPrice': 9005500.0,
+ 'currentPrice': 6889207.5,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393938}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '江西靓凯光电科技有限公司厂房及土地',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600877400302.htm',
+ 'consultPrice': 34883500.0,
+ 'currentPrice': 19534760.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393938}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '福建成隆化工有限公司所属的办公楼和宿舍楼工业在建工程',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600846120464.htm',
+ 'consultPrice': 4706200.0,
+ 'currentPrice': 3600000.0,
+ 'end': 1572832800000,
+ 'start': 1567648800000,
+ 'timeToEnd': 5413993938}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '福建省建宁县塔下路20号66-73幢房产及机器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600840160894.htm',
+ 'consultPrice': 134348764.0,
+ 'currentPrice': 75235308.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393938}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '虞城县城关镇工业大道北侧至诚六路东侧（河南亚东量具有限公司）工业房产及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600745220923.htm',
+ 'consultPrice': 34465900.0,
+ 'currentPrice': 26366400.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393938}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '重庆市黔江区正阳街道工业园区园区路白家河四套工业用房和两宗土地',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600437039590.htm',
+ 'consultPrice': 38588000.0,
+ 'currentPrice': 36658600.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393938}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '贵州省湄潭县永兴徐陈板鸭有限公司的&ldquo;展示大厅&rdquo;',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600430559348.htm',
+ 'consultPrice': 5240096.0,
+ 'currentPrice': 5240096.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393938}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '福建省政和县同心经济开发区（石屯）的一块国有出让土地使用权及地上1幢建筑',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600224530887.htm',
+ 'consultPrice': 8095000.0,
+ 'currentPrice': 6000000.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393938}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3>
+{'assetstatus': 'todo',
+ 'assettitle': '广东从化经济开发区明珠路10号第三层、第四层、第五层、第六层',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600221426296.htm',
+ 'consultPrice': 23658000.0,
+ 'currentPrice': 16560600.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393938}
+2019/09/02 06:06:46 PM Crawled (200) <GET https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=> (referer: None)
+2019/09/02 06:06:46 PM Redirecting (301) to <GET https://www.prologis.cn/about/features?page=0&title=> from <GET https://www.prologis.cn/about/features?title=&page=0>
+2019/09/02 06:06:46 PM Filtered duplicate request: <GET https://www.prologis.cn/about/features?page=0&title=> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2019/09/02 06:06:46 PM Crawled (200) <GET https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4> (referer: https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=3)
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '温宿德丰棉花产业有限责任公司所属的三个轧花厂',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600050473978.htm',
+ 'consultPrice': 18854606.07,
+ 'currentPrice': 13198224.25,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393453}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）志丹县永祥豆制品有限责任公司破产财产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600027545933.htm',
+ 'consultPrice': 32090667.25,
+ 'currentPrice': 32090667.25,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393453}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '建湖县经济开发区兴达路99号房产及附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600015978456.htm',
+ 'consultPrice': 23748000.0,
+ 'currentPrice': 16623600.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393453}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '丰县常店镇马楼村丰单路路北的房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599815748235.htm',
+ 'consultPrice': 6322900.0,
+ 'currentPrice': 6006000.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393453}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）位于苏州市吴江区震泽镇八都社区永联村11组的房产、土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599808844366.htm',
+ 'consultPrice': 10380800.0,
+ 'currentPrice': 10380800.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393453}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '芦台经济开发区农业总公司三社区的9333.33平方米土地使用权及地上房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599807718999.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 24000000.0,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393452}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '社旗县产业集聚区长兴路长安路口该公司院内的土地和房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599470132986.htm',
+ 'consultPrice': 10705381.0,
+ 'currentPrice': 8564304.8,
+ 'end': 1567735200000,
+ 'start': 1567648800000,
+ 'timeToEnd': 316393452}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'doing',
+ 'assettitle': '江苏省扬州市江都区沿江开发区兴港路1号1-3幢工业房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597167138079.htm',
+ 'consultPrice': 265000000.0,
+ 'currentPrice': 148400000.0,
+ 'end': 1567648800000,
+ 'start': 1562464800000,
+ 'timeToEnd': 229993452}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'doing',
+ 'assettitle': '吉水县城城西工业园区一处工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/596848165158.htm',
+ 'consultPrice': 8263600.0,
+ 'currentPrice': 5296000.0,
+ 'end': 1567648800000,
+ 'start': 1562464800000,
+ 'timeToEnd': 229993452}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '位于山东省高唐县105国道东侧、308国道北侧的房、地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601584007217.htm',
+ 'consultPrice': 8489470.0,
+ 'currentPrice': 5890884.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793452}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '涟水新融美纺织厂所用房产（含地上附属物）、土地使用权及厂区内的所有机器设备及附属',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601541915050.htm',
+ 'consultPrice': 53976500.0,
+ 'currentPrice': 35000000.0,
+ 'end': 1572919200000,
+ 'start': 1567735200000,
+ 'timeToEnd': 5500393452}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '重庆市荣昌县荣隆镇东恩大道2号附2号一单元4-1号房屋',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601517035752.htm',
+ 'consultPrice': 2744800.0,
+ 'currentPrice': 1544000.0,
+ 'end': 1572919200000,
+ 'start': 1567735200000,
+ 'timeToEnd': 5500393452}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '内乡县板场乡长兴村田庄组被执行人所有房屋',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601341378415.htm',
+ 'consultPrice': 3641600.0,
+ 'currentPrice': 2913280.0,
+ 'end': 1572919200000,
+ 'start': 1567735200000,
+ 'timeToEnd': 5500393452}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '山西三和牧业科技有限公司房产和机器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601185427597.htm',
+ 'consultPrice': 3000000.0,
+ 'currentPrice': 2400000.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793452}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '嵊州市黄泽镇大桥路16号的国有土地使用权、地上建筑物及附属物（含室内固定装修）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601143665561.htm',
+ 'consultPrice': 7617054.0,
+ 'currentPrice': 4265551.0,
+ 'end': 1572919200000,
+ 'start': 1567735200000,
+ 'timeToEnd': 5500393451}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '青海科森盐化产业集团有限公司名下位于湟中县甘河滩工业园区地上工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601143061408.htm',
+ 'consultPrice': 27373800.0,
+ 'currentPrice': 15329328.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793451}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '重庆市荣昌县荣隆镇东恩大道2号附2号一单元2-1号房屋',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601138137246.htm',
+ 'consultPrice': 2744800.0,
+ 'currentPrice': 1544000.0,
+ 'end': 1572919200000,
+ 'start': 1567735200000,
+ 'timeToEnd': 5500393451}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '重庆市荣昌县荣隆镇东恩大道2号附2号一单元3-1号房屋',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601136585783.htm',
+ 'consultPrice': 2744800.0,
+ 'currentPrice': 1544000.0,
+ 'end': 1572919200000,
+ 'start': 1567735200000,
+ 'timeToEnd': 5500393451}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '位于柳河县五道沟镇沙家村四家子屯综合楼和生产设备及附属设施、土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601134461508.htm',
+ 'consultPrice': 8827598.0,
+ 'currentPrice': 4943454.88,
+ 'end': 1572919200000,
+ 'start': 1567735200000,
+ 'timeToEnd': 5500393451}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '都昌县芙蓉山工业园厂房及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601054537362.htm',
+ 'consultPrice': 5444500.0,
+ 'currentPrice': 4410045.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793451}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '衡南县向阳镇向氮路132号的土地与房屋第二次拍卖',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600910304962.htm',
+ 'consultPrice': 10767500.0,
+ 'currentPrice': 8721675.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793451}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '宁夏青铜峡市嘉宝工业园区10024048号工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600516499017.htm',
+ 'consultPrice': 6284698.0,
+ 'currentPrice': 5656228.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793451}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '宁夏青铜峡市嘉宝工业园区10021880号工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600516367205.htm',
+ 'consultPrice': 6284698.0,
+ 'currentPrice': 5656228.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793451}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '仪征市真州镇真州西路中段北侧工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600294958746.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 1720000.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793451}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）河南兰龙工贸有限公司的土地、房屋、构筑物、机器设备等',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600138173640.htm',
+ 'consultPrice': 33573172.0,
+ 'currentPrice': 23100000.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793450}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '湖州市紫云路5099号1-14幢房产（含装修及部分设施）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600128241275.htm',
+ 'consultPrice': 8810000.0,
+ 'currentPrice': 6170000.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793450}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '福建将乐自开煤业有限责任公司位于将乐县水南镇狼石工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600092937262.htm',
+ 'consultPrice': 11287300.0,
+ 'currentPrice': 8465475.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793450}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '丹北镇埤城城中村的不动产及该国有土地使用权上的无证房和附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599996771765.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 39383890.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793450}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '嵊州市溪滩食品有限公司位于嵊州市经济开发区区中园15号的工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599941580109.htm',
+ 'consultPrice': 20763700.0,
+ 'currentPrice': 14534600.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793450}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '宁夏青铜峡市嘉宝工业园区10036583号工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599898132689.htm',
+ 'consultPrice': 14144306.0,
+ 'currentPrice': 12729875.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793450}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '吉林省珲春市英安镇英安村四组杜糠粮米加工厂厂房及附属机器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599870116499.htm',
+ 'consultPrice': 1384939.0,
+ 'currentPrice': 1100000.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793450}
+2019/09/02 06:06:46 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）沭阳县苏雪粮油有限公司5幢房屋',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599859720462.htm',
+ 'consultPrice': 2212400.0,
+ 'currentPrice': 1769900.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793450}
+2019/09/02 06:06:47 PM Crawled (200) <GET https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5> (referer: https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=4)
+2019/09/02 06:06:47 PM Redirecting (301) to <GET https://www.prologis.cn/portfolio?country_name=All&market=All&locality=All&prl_property_property_type_status_combined=All&title=&page=1> from <GET https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&prl_property_property_type_status_combined=All&title=&page=1>
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '银川市金凤区开发区2号标准厂房6层西房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599790200037.htm',
+ 'consultPrice': 2732288.0,
+ 'currentPrice': 2185831.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793046}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '远太集团（福建）有限公司所有的址在泉州市鲤城区兴贤远太工业区3#工业厂房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599786288851.htm',
+ 'consultPrice': 8189600.0,
+ 'currentPrice': 5732720.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793046}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '福建省莆田市秀屿区笏石镇西徐村的房地',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599619012025.htm',
+ 'consultPrice': 6431900.0,
+ 'currentPrice': 5000000.0,
+ 'end': 1567821600000,
+ 'start': 1567735200000,
+ 'timeToEnd': 402793046}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'doing',
+ 'assettitle': '泉州朝闻鞋业公司址于南安市康美村土地及房产（详见《固定资产&mdash;房地产评估明细表》）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597224158771.htm',
+ 'consultPrice': 29358400.0,
+ 'currentPrice': 18495792.0,
+ 'end': 1567735200000,
+ 'start': 1562551200000,
+ 'timeToEnd': 316393046}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'doing',
+ 'assettitle': '浏阳市茂旺出口花炮有限公司名下位于浏阳市小河乡黄碑村工厂厂房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/596741200484.htm',
+ 'consultPrice': 1414200.0,
+ 'currentPrice': 791952.0,
+ 'end': 1567735200000,
+ 'start': 1562551200000,
+ 'timeToEnd': 316393046}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '榆林金源天然气有限公司拥有的固定资产和无形资产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601390114171.htm',
+ 'consultPrice': 273339000.0,
+ 'currentPrice': 153069840.0,
+ 'end': 1573005600000,
+ 'start': 1567821600000,
+ 'timeToEnd': 5586793045}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '巩义市荣强净水材料厂内厂房两座、办公楼一座等资产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601389554964.htm',
+ 'consultPrice': 1724800.0,
+ 'currentPrice': 1246168.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193045}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '遂川县吉贡茶业有限公司所有的房产土地及机器设备办公家具设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601333970051.htm',
+ 'consultPrice': 18477840.0,
+ 'currentPrice': 14782272.0,
+ 'end': 1567994400000,
+ 'start': 1567821600000,
+ 'timeToEnd': 575593045}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '桐城市吕亭镇新店工业园兴达集团院内10#101室及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601202886836.htm',
+ 'consultPrice': 6464208.0,
+ 'currentPrice': 4137093.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193045}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '执行人盐城市双钱纺织有限公司所位于的洋马镇黄金路工业园内的房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601194449831.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 4480000.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193045}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '常州市金坛区兴华路20号不动产、机器设备、土地使用权及附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601017364194.htm',
+ 'consultPrice': 19701200.0,
+ 'currentPrice': 11032672.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193045}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '大庆华宇北药科技开发有限公司名下位于林甸县西南街的房产及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601007537133.htm',
+ 'consultPrice': 57941700.0,
+ 'currentPrice': 39400356.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193045}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '位于新民市东蛇山子乡东蛇山子村的土地使用权、厂房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600905528171.htm',
+ 'consultPrice': 21934276.0,
+ 'currentPrice': 15792679.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193045}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '位于沅江市南大膳镇沅江市正辉饲料有限公司厂房、办公楼、机器设备等',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600487399294.htm',
+ 'consultPrice': 11204400.0,
+ 'currentPrice': 11204400.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193045}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '浙江欧凯板业有限公司所有的位于常山县新都工业园区的厂房、土地及机器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600209489483.htm',
+ 'consultPrice': 13938312.0,
+ 'currentPrice': 9760000.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193045}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '岚山区巨峰镇金茗路北产权证号为鲁（2016）日照市不动产权第0001230号房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600206749216.htm',
+ 'consultPrice': 5062200.0,
+ 'currentPrice': 3543540.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193044}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '浙江乐豪新能源有限公司的厂房土地及厂区内的机器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599979404757.htm',
+ 'consultPrice': 10589470.0,
+ 'currentPrice': 8480000.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193044}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '绍兴袍江新区45-1号地块一宗国有土地使用权、地上建筑及附属物（含室内固定装修）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599972996290.htm',
+ 'consultPrice': 16081300.0,
+ 'currentPrice': 16081300.0,
+ 'end': 1567908000000,
+ 'start': 1567821600000,
+ 'timeToEnd': 489193044}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '成都市金牛区金科南路25号1栋6层2号房屋',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601581367193.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 2400000.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593044}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '龙海市源鑫食品有限公司位于双第华侨经济开发区的房地产、构筑物及机器设备资产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601461802827.htm',
+ 'consultPrice': 16400500.0,
+ 'currentPrice': 12546382.5,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593044}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '泗洪县青阳工业园区戚黄路西侧经二路东侧的房产、土地及附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601284565996.htm',
+ 'consultPrice': 16346900.0,
+ 'currentPrice': 9154400.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593044}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '福建省御竹工贸有限公司所有的位于政和县东平镇白鹭工业园区内的房产及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600909720265.htm',
+ 'consultPrice': 19714600.0,
+ 'currentPrice': 11060000.0,
+ 'end': 1573092000000,
+ 'start': 1567908000000,
+ 'timeToEnd': 5673193044}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '福建省龙岩市漳平市西园乡丁坂村工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600667955421.htm',
+ 'consultPrice': 12749300.0,
+ 'currentPrice': 7140000.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593044}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '东台市龙信塑料制品有限公司位于东台市时堰镇泰东工业园区房地产及附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600645023778.htm',
+ 'consultPrice': 5414900.0,
+ 'currentPrice': 3791000.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593044}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '长春市双阳区经济开发区育才路工业用房二处及双阳区经济开发区鲁家村二社土地一宗',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600568619945.htm',
+ 'consultPrice': 7546600.0,
+ 'currentPrice': 7395700.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593043}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '威海市文登区米山镇中兴路4-2号、-3号、-6号至18号厂房及项下土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600563647605.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 7000000.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593043}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）射阳县纸箱厂房地产（含土地使用权、装饰装修物、附属设施）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600432323956.htm',
+ 'consultPrice': 2251400.0,
+ 'currentPrice': 2251400.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593043}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '中山市古镇镇乐临街16号的房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600275033253.htm',
+ 'consultPrice': 267426765.0,
+ 'currentPrice': 187198736.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593043}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '广元市利州区川浙园金昊金属公司1号厂房、2号厂房、3号厂房及公司内工业用地',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600128157170.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 6800000.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593043}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '绍兴市柯桥区寺桥村的一宗国有土地使用权、地上建筑物及附属物（含室内固定装饰装修）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600021472790.htm',
+ 'consultPrice': 33512400.0,
+ 'currentPrice': 23500000.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593043}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'todo',
+ 'assettitle': '津南区辛庄镇辛柴路10号房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599814352650.htm',
+ 'consultPrice': 178482831.39,
+ 'currentPrice': 124937982.0,
+ 'end': 1567994400000,
+ 'start': 1567908000000,
+ 'timeToEnd': 575593043}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5>
+{'assetstatus': 'doing',
+ 'assettitle': '龙海佳兴冷冻食品有限公司不动产及设备资产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597345294784.htm',
+ 'consultPrice': 33723457.0,
+ 'currentPrice': 27372000.0,
+ 'end': 1567908000000,
+ 'start': 1562724000000,
+ 'timeToEnd': 489193043}
+2019/09/02 06:06:47 PM Crawled (200) <GET https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6> (referer: https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=5)
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'doing',
+ 'assettitle': '福建省泰宁县状元食品有限公司所有的房产、土地使用权及设备。',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597169890627.htm',
+ 'consultPrice': 7718900.0,
+ 'currentPrice': 5250000.0,
+ 'end': 1567908000000,
+ 'start': 1562724000000,
+ 'timeToEnd': 489192610}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'doing',
+ 'assettitle': '大丰市毛麻纺织有限公司名下的位于盐城市大丰区南团小街的不动产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597161441738.htm',
+ 'consultPrice': 6527300.0,
+ 'currentPrice': 3655288.0,
+ 'end': 1567908000000,
+ 'start': 1562724000000,
+ 'timeToEnd': 489192610}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'doing',
+ 'assettitle': '兴国县经济开发区的两宗工业用地及地上建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597044588797.htm',
+ 'consultPrice': 33339700.0,
+ 'currentPrice': 21670000.0,
+ 'end': 1567908000000,
+ 'start': 1562724000000,
+ 'timeToEnd': 489192610}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '屠宰车间',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600449706126.htm',
+ 'consultPrice': 1861560.0,
+ 'currentPrice': 1303092.0,
+ 'end': 1568084400000,
+ 'start': 1567990800000,
+ 'timeToEnd': 665592610}
+2019/09/02 06:06:47 PM Crawled (200) <GET https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/shanghai/shanghaijiutingwuliuzhongxin> (referer: https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=)
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '璧山区青杠街道石杨二路18号1幢3-1',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601676915565.htm',
+ 'consultPrice': 2861200.0,
+ 'currentPrice': 1602272.0,
+ 'end': 1573178400000,
+ 'start': 1567994400000,
+ 'timeToEnd': 5759592610}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '天长市万寿镇忠孝村李庄队房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601652007284.htm',
+ 'consultPrice': 4133500.0,
+ 'currentPrice': 3160000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992610}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '黑龙江省伊春市友春木业有限责任公司25套房产和2处厂区土地及186台机器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601650347742.htm',
+ 'consultPrice': 10388734.0,
+ 'currentPrice': 6648789.76,
+ 'end': 1573178400000,
+ 'start': 1567994400000,
+ 'timeToEnd': 5759592609}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '被执行人佳木斯市广夏新型建筑材料制造公司名下的工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601600723514.htm',
+ 'consultPrice': 5213824.0,
+ 'currentPrice': 2919741.44,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992609}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '被执行人佳木斯广夏新型建筑材料有限公司名下房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601600415078.htm',
+ 'consultPrice': 1199772.0,
+ 'currentPrice': 671872.32,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992609}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '来宾市华侨投资区南区四号路与南区A号路交叉口东南角土地使用权、车间等',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601585087651.htm',
+ 'consultPrice': 11906508.0,
+ 'currentPrice': 6667644.48,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992609}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '璧山区青杠街道石杨二路18号1幢4-1',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601484826114.htm',
+ 'consultPrice': 2811900.0,
+ 'currentPrice': 1574664.0,
+ 'end': 1573178400000,
+ 'start': 1567994400000,
+ 'timeToEnd': 5759592609}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '安徽省来安县经济开发区迎宾大道9号工业房地产及附属工程司法拍卖公告',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601461150244.htm',
+ 'consultPrice': 19377300.0,
+ 'currentPrice': 15510000.0,
+ 'end': 1573178400000,
+ 'start': 1567994400000,
+ 'timeToEnd': 5759592609}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '被执行人广夏新型建筑材料制造有限公司名下房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601407922466.htm',
+ 'consultPrice': 789750.0,
+ 'currentPrice': 442260.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992609}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '被执行人佳木斯市广夏新型建筑材料有限公司名下办公用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601407738093.htm',
+ 'consultPrice': 506800.0,
+ 'currentPrice': 283808.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992609}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '静海区蔡公庄镇工业中心路北段3号',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601390150153.htm',
+ 'consultPrice': 37162300.0,
+ 'currentPrice': 20810888.0,
+ 'end': 1573178400000,
+ 'start': 1567994400000,
+ 'timeToEnd': 5759592609}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '鹤壁市淇滨区钜桥镇岗坡村东建筑面积约6000平方米的厂房一处',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601334373765.htm',
+ 'consultPrice': 4495000.0,
+ 'currentPrice': 2517200.0,
+ 'end': 1573178400000,
+ 'start': 1567994400000,
+ 'timeToEnd': 5759592609}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '沭阳县盛泰木业制品厂所有的1-8幢工业房产及附属',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601333090444.htm',
+ 'consultPrice': 1009100.0,
+ 'currentPrice': 566000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992608}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '镇江某照明电器有限公司位于扬中市新坝科技园区（宜禾路）的工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601259121439.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 19200000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992608}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '沈阳诚大冷藏有限公司8栋有证房屋、4项构筑物、2宗国有土地使用权及73套机器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601258021920.htm',
+ 'consultPrice': 203157858.0,
+ 'currentPrice': 119944399.36,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992608}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '被执行人佳木斯市广夏新型建筑材料制造有限公司名下工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601207641036.htm',
+ 'consultPrice': 2400060.0,
+ 'currentPrice': 1344033.6,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992608}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '重庆市南川区兴隆镇金花村3社的土地及房屋',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601190117662.htm',
+ 'consultPrice': 1472400.0,
+ 'currentPrice': 824544.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992608}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '西吉县旺泉食品饮料厂的工业房地产及地上附着物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601125989709.htm',
+ 'consultPrice': 16867243.0,
+ 'currentPrice': 9445656.08,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992608}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '福建省南平市延平区江南工业园祥瑞路9号土地使用权及祥瑞路9号1-4层房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601044820948.htm',
+ 'consultPrice': 7077200.0,
+ 'currentPrice': 5095584.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992608}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '璧山区青杠街道石杨二路18号1幢5-1',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601044220953.htm',
+ 'consultPrice': 2774900.0,
+ 'currentPrice': 1553944.0,
+ 'end': 1573178400000,
+ 'start': 1567994400000,
+ 'timeToEnd': 5759592608}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '盐城市建湖县上冈镇东首工业房地产、装饰装潢、土地使用权、绿化、设备、附属设施等',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600974968477.htm',
+ 'consultPrice': 6602500.0,
+ 'currentPrice': 3697400.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992608}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）江苏启皓光电科技有限公司所有的厂房（未完工）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600929667681.htm',
+ 'consultPrice': 3083900.0,
+ 'currentPrice': 1950000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992608}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '芜湖渝州都市工业园有限责任公司位于南陵县经济开发区内的厂房，附属设施及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600878492997.htm',
+ 'consultPrice': 53373897.0,
+ 'currentPrice': 48170000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992607}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '优诺电梯股份有限公司所有的厂房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600809620586.htm',
+ 'consultPrice': 132284600.0,
+ 'currentPrice': 105827680.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992607}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '黔江区正阳工业园园区路中段6号1幢',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600658011975.htm',
+ 'consultPrice': 4117800.0,
+ 'currentPrice': 3706020.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992607}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '慈溪市附海镇花塘村的工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600643063645.htm',
+ 'consultPrice': 7661000.0,
+ 'currentPrice': 5362700.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992607}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '慈溪市周巷镇海莫村A#的房地产及附属建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600636975466.htm',
+ 'consultPrice': 24521000.0,
+ 'currentPrice': 17164700.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992607}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6>
+{'assetstatus': 'todo',
+ 'assettitle': '19064-1-1高邮市菱塘回族乡兴菱路南侧工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600597283814.htm',
+ 'consultPrice': 14614600.0,
+ 'currentPrice': 13880000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992607}
+2019/09/02 06:06:47 PM Crawled (200) <GET https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/wuhan/gedianwuliuzhongxin> (referer: https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=)
+2019/09/02 06:06:47 PM Scraped from <200 https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/shanghai/shanghaijiutingwuliuzhongxin>
+{'area': '35000',
+ 'location': '上海松江区伴亭路418号',
+ 'name': '上海九亭物流中心',
+ 'warehouseType': '两栋单层库建筑类型'}
+2019/09/02 06:06:47 PM Scraped from <200 https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/wuhan/gedianwuliuzhongxin>
+{'area': '51000',
+ 'location': '武汉经济技术开发区',
+ 'name': '葛店物流中心',
+ 'warehouseType': '两栋单层库建筑类型'}
+2019/09/02 06:06:47 PM Crawled (200) <GET https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7> (referer: https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=6)
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '老槐泗河南侧扬菱路西侧不动产及地上所有附属物和土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600593030157.htm',
+ 'consultPrice': 21302000.0,
+ 'currentPrice': 14920000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992214}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '溧阳市上黄镇扬子东路99号的土地、房产及附属物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600591827845.htm',
+ 'consultPrice': 30066200.0,
+ 'currentPrice': 22000000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992213}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '丰县吉林森工南侧东城路西侧的房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600547570774.htm',
+ 'consultPrice': 20406900.0,
+ 'currentPrice': 20406900.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992213}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '浙江大川竹木有限公司所有的位于庆元县屏都综合新区金山大道20号、20-1号房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600524322528.htm',
+ 'consultPrice': 17563988.0,
+ 'currentPrice': 12300000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992213}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '聊城市田丰农业生产资料有限公司院内建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600516235258.htm',
+ 'consultPrice': 1888489.0,
+ 'currentPrice': 1888489.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992213}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '慈溪市附海镇南圆村的工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600457550332.htm',
+ 'consultPrice': 22056000.0,
+ 'currentPrice': 15439200.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992213}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '慈溪市龙山镇慈东滨海区的工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600378182732.htm',
+ 'consultPrice': 18634000.0,
+ 'currentPrice': 13043800.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992213}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '丰县经济开发区内东环路东、健康路南的房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600355037299.htm',
+ 'consultPrice': 42692500.0,
+ 'currentPrice': 29887000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992213}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '芜湖市创新机械有限公司工业厂房以及占有的国有土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600353417043.htm',
+ 'consultPrice': 7331200.0,
+ 'currentPrice': 5131840.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992213}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '厦门市集美董任西二路577号1号厂房及2号、3号厂房在建工程',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600284129459.htm',
+ 'consultPrice': 66112000.0,
+ 'currentPrice': 66112000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992213}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）浙江炬炼热能设备制造有限公司位于温岭市九龙大道南侧的房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600260753446.htm',
+ 'consultPrice': 101450000.0,
+ 'currentPrice': 101450000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992212}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '慈溪市周巷镇海莫村B#的房地产及附属建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600252457185.htm',
+ 'consultPrice': 10615000.0,
+ 'currentPrice': 7430500.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992212}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '佳木斯盛邦科技有限公司东风区高新区农机产业园',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600199197733.htm',
+ 'consultPrice': 43010824.0,
+ 'currentPrice': 30107576.8,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992212}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '位于五莲县高泽镇工业园厂房一处',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600183717240.htm',
+ 'consultPrice': 557500.0,
+ 'currentPrice': 557500.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992212}
+2019/09/02 06:06:47 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '浙江森波特搪瓷有限公司所有的房地产等',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600173665198.htm',
+ 'consultPrice': 42106475.0,
+ 'currentPrice': 30000000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992212}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '丹阳市开发区新世纪工业园的不动产及室内物品',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600133057453.htm',
+ 'consultPrice': 4267335.0,
+ 'currentPrice': 2987135.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992212}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '福鼎市秦屿镇水井头工业项目集中区01地块的1、2#厂房及相应的土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600128313120.htm',
+ 'consultPrice': 30509700.0,
+ 'currentPrice': 30509700.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992212}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '六安市巨鑫塑胶科技有限公司所有的1号厂房7474.3平方米',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600123956701.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 10060408.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992212}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '湖南省大方广农业科技发展有限公司所有的厂房及土地及附属建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600118680718.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 15380000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992212}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '山东江河纸业厂区内、坐落在地号为01-03-10土地上的车间及纸机、配套浆线设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600115328609.htm',
+ 'consultPrice': 5795036.0,
+ 'currentPrice': 4120000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992211}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '分宜县永安米业有限公司名下的土地及地上建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600110816267.htm',
+ 'consultPrice': 2224890.15,
+ 'currentPrice': 1557424.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992211}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '隆昌市金鹅镇光丰村二社的工业厂房一间',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600096529059.htm',
+ 'consultPrice': 280610.0,
+ 'currentPrice': 280610.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992211}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '句容市开发区杨塘岗村（北三环外侧）09幢工业房地产、无证房产及附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600040330545.htm',
+ 'consultPrice': 15504900.0,
+ 'currentPrice': 10860000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992211}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '江西银象毯业有限公司办公楼、厂房、土地',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600038680483.htm',
+ 'consultPrice': 9211191.0,
+ 'currentPrice': 9211191.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992211}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '淮北市杜集经济开发区发展路1号房屋及淮土国用（2007）字第66号土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600021578516.htm',
+ 'consultPrice': 6850000.0,
+ 'currentPrice': 4795000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992211}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '19065-1-1高邮市菱塘回族乡兴菱路南侧工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599980152293.htm',
+ 'consultPrice': 24883700.0,
+ 'currentPrice': 23640000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992211}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '随州市曾都经济开发区一宗国有出让（工业用地）土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599939052474.htm',
+ 'consultPrice': 2520837.0,
+ 'currentPrice': 2520837.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992211}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '荣成市梁川气调库地上自建建筑物和承租土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599869164040.htm',
+ 'consultPrice': 5777900.0,
+ 'currentPrice': 4044530.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992211}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '高邮市汤庄镇曾钰村16组的厂房及国有土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599868724901.htm',
+ 'consultPrice': 0.0,
+ 'currentPrice': 20860000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992210}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '青阳县新河镇十里岗工业园区工业用房及35183.04㎡工业用地及资产（整体拍卖）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599795008351.htm',
+ 'consultPrice': 15338912.0,
+ 'currentPrice': 12271130.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992210}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'todo',
+ 'assettitle': '永康市砂轮厂位于永康市方岩镇派溪村不动产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599591928467.htm',
+ 'consultPrice': 5590000.0,
+ 'currentPrice': 4472000.0,
+ 'end': 1568080800000,
+ 'start': 1567994400000,
+ 'timeToEnd': 661992210}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7>
+{'assetstatus': 'doing',
+ 'assettitle': '焦作市明宸矿业科技有限公司土地及地上建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597644171893.htm',
+ 'consultPrice': 11243900.0,
+ 'currentPrice': 8100000.0,
+ 'end': 1567994400000,
+ 'start': 1562810400000,
+ 'timeToEnd': 575592210}
+2019/09/02 06:06:48 PM Crawled (200) <GET https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/wuhan/wuhanjiangxiawuliuzhongxin> (referer: https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=)
+2019/09/02 06:06:48 PM Crawled (200) <GET https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/wuhan/wuhancaidianwuliuzhongxin> (referer: https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=)
+2019/09/02 06:06:48 PM Crawled (200) <GET https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/wuxi/wuximeicunwuliuzhongxin> (referer: https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=)
+2019/09/02 06:06:48 PM Crawled (200) <GET https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/kunshan/kunshanlujiawuliuzhongxin> (referer: https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=)
+2019/09/02 06:06:48 PM Crawled (200) <GET https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/hangzhou/hangzhourenhewuliuzhongxin> (referer: https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=)
+2019/09/02 06:06:48 PM Crawled (200) <GET https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/nanjing/nanjingliuhewuliuzhongxin> (referer: https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=)
+2019/09/02 06:06:48 PM Scraped from <200 https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/wuhan/wuhanjiangxiawuliuzhongxin>
+{'area': '203000',
+ 'location': '武汉庙山开发区',
+ 'name': '武汉江夏物流中心',
+ 'warehouseType': '五栋双层库建筑类型'}
+2019/09/02 06:06:48 PM Crawled (200) <GET https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/jiaxing/jiaxingwuliuzhongxin> (referer: https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=)
+2019/09/02 06:06:48 PM Crawled (200) <GET https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8> (referer: https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=7)
+2019/09/02 06:06:48 PM Scraped from <200 https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/wuhan/wuhancaidianwuliuzhongxin>
+{'area': '121500',
+ 'location': '武汉蔡甸区',
+ 'name': '武汉蔡甸物流中心',
+ 'warehouseType': '两栋单层库和两栋双层库建筑类型'}
+2019/09/02 06:06:48 PM Scraped from <200 https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/wuxi/wuximeicunwuliuzhongxin>
+{'area': '132000',
+ 'location': '无锡新区梅村工业集中区',
+ 'name': '无锡梅村物流中心',
+ 'warehouseType': '四栋双层库建筑类型'}
+2019/09/02 06:06:48 PM Scraped from <200 https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/kunshan/kunshanlujiawuliuzhongxin>
+{'area': '43800',
+ 'location': '昆山陆家镇金阳东路与望石路交叉口',
+ 'name': '昆山陆家物流中心',
+ 'warehouseType': '两栋单层库建筑类型'}
+2019/09/02 06:06:48 PM Scraped from <200 https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/hangzhou/hangzhourenhewuliuzhongxin>
+{'area': '76200',
+ 'location': '杭州杭州市余杭区仁和街道',
+ 'name': '杭州仁和物流中心',
+ 'warehouseType': '两栋双层库建筑类型'}
+2019/09/02 06:06:48 PM Scraped from <200 https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/nanjing/nanjingliuhewuliuzhongxin>
+{'area': '103100',
+ 'location': '211100南京',
+ 'name': '南京六合物流中心',
+ 'warehouseType': '四栋双层库建筑类型'}
+2019/09/02 06:06:48 PM Received SIGINT, shutting down gracefully. Send again to force 
+2019/09/02 06:06:48 PM Scraped from <200 https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/jiaxing/jiaxingwuliuzhongxin>
+{'area': '81600',
+ 'location': '嘉兴秀洲区王店镇希望路8号',
+ 'name': '嘉兴物流中心',
+ 'warehouseType': '四栋单层库建筑类型'}
+2019/09/02 06:06:48 PM Closing spider (shutdown)
+2019/09/02 06:06:48 PM Closing spider (shutdown)
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'doing',
+ 'assettitle': '新沂华夏淀粉糖有限公司大门左侧厂房及附属物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/597458178497.htm',
+ 'consultPrice': 6171400.0,
+ 'currentPrice': 2556400.0,
+ 'end': 1567994400000,
+ 'start': 1562810400000,
+ 'timeToEnd': 575591656}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '洛浦县北京工业园区北园区京洛大道13号的土地、厂房、办公楼及地上附着物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600128260378.htm',
+ 'consultPrice': 16412920.0,
+ 'currentPrice': 14771628.0,
+ 'end': 1568088000000,
+ 'start': 1568001600000,
+ 'timeToEnd': 669191656}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '沧源县兴鸿木业有限公司房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600281645787.htm',
+ 'consultPrice': 13355900.0,
+ 'currentPrice': 13355900.0,
+ 'end': 1568095200000,
+ 'start': 1568008800000,
+ 'timeToEnd': 676391656}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '四平市铁东区平东街1660号工业房屋后面搭接车库（无证照、面积490.48㎡）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601607207947.htm',
+ 'consultPrice': 196192.0,
+ 'currentPrice': 125562.88,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391655}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '位于沅江市工业园石矶湖机场北侧的房产、土地及土地上其他附属厂房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601480193427.htm',
+ 'consultPrice': 17941395.0,
+ 'currentPrice': 10047181.2,
+ 'end': 1573264800000,
+ 'start': 1568080800000,
+ 'timeToEnd': 5845991655}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '泰安新塑管业有限公司所有的位于宁阳县伏山镇工业园区1-7幢房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601466957379.htm',
+ 'consultPrice': 2766200.0,
+ 'currentPrice': 1995000.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391655}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '临沂方大果蔬有限公司所占用的土地使用权及地上建筑物和机器设备',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601423018062.htm',
+ 'consultPrice': 1849448.0,
+ 'currentPrice': 1479559.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391655}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '安徽大吉象食品公司历阳镇台创园海峡大道南侧工业房地产、无证建筑物及附属构筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601338886156.htm',
+ 'consultPrice': 26382600.0,
+ 'currentPrice': 21106080.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391655}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '晋江市龙湖镇新大街北路73-79号工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601286889257.htm',
+ 'consultPrice': 31094200.0,
+ 'currentPrice': 17412752.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391655}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '新乡市和平南路河南雪嘉奇药业有限公司工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601274314373.htm',
+ 'consultPrice': 9447000.0,
+ 'currentPrice': 8502300.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391655}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '广州市荔湾区浣花西路鸿图大街48-92号地下室B157号（车位）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601265305425.htm',
+ 'consultPrice': 155800.0,
+ 'currentPrice': 87248.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391655}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）浙江百盛卫生用品有限公司位于兰溪市诸葛镇的工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601156833845.htm',
+ 'consultPrice': 161018064.0,
+ 'currentPrice': 86500000.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391655}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '璧山区青杠街道石杨二路18号1幢2-1',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601043560755.htm',
+ 'consultPrice': 2898200.0,
+ 'currentPrice': 1622992.0,
+ 'end': 1573264800000,
+ 'start': 1568080800000,
+ 'timeToEnd': 5845991654}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '璧山县璧泉街道金剑路263号4幢（位于三楼）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/601039464764.htm',
+ 'consultPrice': 3980000.0,
+ 'currentPrice': 2228800.0,
+ 'end': 1573264800000,
+ 'start': 1568080800000,
+ 'timeToEnd': 5845991654}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '天津市津南区双港镇经济开发区发港路（不动产权证号为112030900301号）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600815377865.htm',
+ 'consultPrice': 28120000.0,
+ 'currentPrice': 19121600.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391654}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '四川立鑫门业有限公司位于蓬溪县赤城镇上游工业园区的工业用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600734819411.htm',
+ 'consultPrice': 22291600.0,
+ 'currentPrice': 22000000.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391654}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '鸡西市鸡冠区西郊乡西鸡西办新英委1组房屋',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600717431671.htm',
+ 'consultPrice': 70375.0,
+ 'currentPrice': 49262.5,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391654}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '第一次拍卖赣州市赣县区红金工业园三期铜铝大道1-4号#车间及土地使用权',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600716467774.htm',
+ 'consultPrice': 33534900.0,
+ 'currentPrice': 26827920.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391654}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '福建汇晶光电科技有限公司占有建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600713327760.htm',
+ 'consultPrice': 13942257.0,
+ 'currentPrice': 9759579.9,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391654}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '娄底市娄涟高等级公路南侧工业用地及地面附着物房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600667711678.htm',
+ 'consultPrice': 18490100.0,
+ 'currentPrice': 17900000.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391654}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '慈溪市龙山镇农垦场的工业房地产（包括室内固定装修、无证建筑及附属物）',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600595135507.htm',
+ 'consultPrice': 29168000.0,
+ 'currentPrice': 20420000.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391654}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '淄博宏达热电有限公司名下坐落于临淄区凤凰镇南金村的房产土地、冷却塔及相关附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600592779711.htm',
+ 'consultPrice': 112623400.0,
+ 'currentPrice': 78836380.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391653}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '惠州市上排黄屋路4号',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600550006679.htm',
+ 'consultPrice': 42685100.0,
+ 'currentPrice': 29879570.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391653}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '丹阳市司徒镇张寺村的不动产及附属物、苗木和所有的机器设备及动产附属设施',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600512452276.htm',
+ 'consultPrice': 37627600.0,
+ 'currentPrice': 21071456.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391653}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '鹿邑县观堂乡商沈路东侧鹿邑县瑞祥食品有限公司房产两处及土地一宗',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600272469823.htm',
+ 'consultPrice': 17679700.0,
+ 'currentPrice': 12022196.0,
+ 'end': 1573264800000,
+ 'start': 1568080800000,
+ 'timeToEnd': 5845991653}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '四川省佳宴食品有限公司所有的工业厂房、围墙及地上建筑物',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600253165794.htm',
+ 'consultPrice': 5675760.0,
+ 'currentPrice': 5675760.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391653}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '郑泰集团有限公司位于永康市龙山镇桥下工业区房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600240770028.htm',
+ 'consultPrice': 14903700.0,
+ 'currentPrice': 11922900.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391653}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '（破）江油工业开发区创元路冶金机械园1栋1-7层办公用房',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600240615105.htm',
+ 'consultPrice': 10733600.0,
+ 'currentPrice': 10730000.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391653}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '浙江维亿工贸有限公司位于永康市古山镇世雅下街村世方西路258号',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600226894235.htm',
+ 'consultPrice': 53261000.0,
+ 'currentPrice': 42608800.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391653}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '河南宝鑫鞋业科技有限公司名下址在河南省睢县城关镇民太公路东侧的工业房地产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600092408651.htm',
+ 'consultPrice': 47402000.0,
+ 'currentPrice': 33181400.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391653}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '永康市金刚石工具厂（普通合伙）位于永康市龙山镇桥下三村梅溪东路6-1号',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/600042361399.htm',
+ 'consultPrice': 11601600.0,
+ 'currentPrice': 9281300.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391652}
+2019/09/02 06:06:48 PM Scraped from <200 https://sf.taobao.com/item_list.htm?category=200788003&auction_source=0&st_param=-1&auction_start_seg=-1&page=8>
+{'assetstatus': 'todo',
+ 'assettitle': '濉溪县老城十北街2号一宗工业用地及地面附属11处工业房产',
+ 'asseturl': 'https://sf-item.taobao.com/sf_item/599707141892.htm',
+ 'consultPrice': 6188127.0,
+ 'currentPrice': 4641095.0,
+ 'end': 1568167200000,
+ 'start': 1568080800000,
+ 'timeToEnd': 748391652}
+2019/09/02 06:06:48 PM Crawled (200) <GET https://www.prologis.cn/industrial-logistics-warehouse-space/zhongguo/nanjing/nanjingkonggangwuliuzhongxin> (referer: https://www.prologis.cn/portfolio?country_name=All&locality=All&market=All&page=%s&prl_property_property_type_status_combined=All&title=)
+2019/09/02 06:06:48 PM Dumping Scrapy stats:
+{'downloader/request_bytes': 4612,
+ 'downloader/request_count': 8,
+ 'downloader/request_method_count/GET': 8,
+ 'downloader/response_bytes': 136041,
+ 'downloader/response_count': 8,
+ 'downloader/response_status_count/200': 8,
+ 'finish_reason': 'shutdown',
+ 'finish_time': datetime.datetime(2019, 9, 2, 10, 6, 48, 622212),
+ 'item_scraped_count': 255,
+ 'log_count/DEBUG': 300,
+ 'log_count/INFO': 11,
+ 'memusage/max': 150994944,
+ 'memusage/startup': 150994944,
+ 'request_depth_max': 8,
+ 'response_received_count': 8,
+ 'scheduler/dequeued': 8,
+ 'scheduler/dequeued/memory': 8,
+ 'scheduler/enqueued': 9,
+ 'scheduler/enqueued/memory': 9,
+ 'start_time': datetime.datetime(2019, 9, 2, 10, 6, 44, 200654)}
+2019/09/02 06:06:48 PM Spider closed (shutdown)
