@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.scrapy.crawl.mapper.AnboNewsMapper" >
+  <resultMap id="BaseResultMap" type="com.scrapy.crawl.entity.AnboNews" >
+    <id column="newstitle" property="newstitle" jdbcType="VARCHAR" />
+    <result column="newslink" property="newslink" jdbcType="VARCHAR" />
+    <result column="newszhaiyao" property="newszhaiyao" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    newstitle, newslink, newszhaiyao
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.scrapy.crawl.entity.AnboNewsExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from anbo_news
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from anbo_news
+    where newstitle = #{newstitle,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from anbo_news
+    where newstitle = #{newstitle,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.scrapy.crawl.entity.AnboNewsExample" >
+    delete from anbo_news
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.scrapy.crawl.entity.AnboNews" >
+    insert into anbo_news (newstitle, newslink, newszhaiyao
+      )
+    values (#{newstitle,jdbcType=VARCHAR}, #{newslink,jdbcType=VARCHAR}, #{newszhaiyao,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.scrapy.crawl.entity.AnboNews" >
+    insert into anbo_news
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="newstitle != null" >
+        newstitle,
+      </if>
+      <if test="newslink != null" >
+        newslink,
+      </if>
+      <if test="newszhaiyao != null" >
+        newszhaiyao,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="newstitle != null" >
+        #{newstitle,jdbcType=VARCHAR},
+      </if>
+      <if test="newslink != null" >
+        #{newslink,jdbcType=VARCHAR},
+      </if>
+      <if test="newszhaiyao != null" >
+        #{newszhaiyao,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.scrapy.crawl.entity.AnboNewsExample" resultType="java.lang.Integer" >
+    select count(*) from anbo_news
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update anbo_news
+    <set >
+      <if test="record.newstitle != null" >
+        newstitle = #{record.newstitle,jdbcType=VARCHAR},
+      </if>
+      <if test="record.newslink != null" >
+        newslink = #{record.newslink,jdbcType=VARCHAR},
+      </if>
+      <if test="record.newszhaiyao != null" >
+        newszhaiyao = #{record.newszhaiyao,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update anbo_news
+    set newstitle = #{record.newstitle,jdbcType=VARCHAR},
+      newslink = #{record.newslink,jdbcType=VARCHAR},
+      newszhaiyao = #{record.newszhaiyao,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.scrapy.crawl.entity.AnboNews" >
+    update anbo_news
+    <set >
+      <if test="newslink != null" >
+        newslink = #{newslink,jdbcType=VARCHAR},
+      </if>
+      <if test="newszhaiyao != null" >
+        newszhaiyao = #{newszhaiyao,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where newstitle = #{newstitle,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.scrapy.crawl.entity.AnboNews" >
+    update anbo_news
+    set newslink = #{newslink,jdbcType=VARCHAR},
+      newszhaiyao = #{newszhaiyao,jdbcType=VARCHAR}
+    where newstitle = #{newstitle,jdbcType=VARCHAR}
+  </update>
+</mapper>

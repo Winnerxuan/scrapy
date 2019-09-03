@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.scrapy.crawl.mapper.FirstprionewsMapper" >
+  <resultMap id="BaseResultMap" type="com.scrapy.crawl.entity.Firstprionews" >
+    <id column="newstitle" property="newstitle" jdbcType="VARCHAR" />
+    <result column="newstiems" property="newstiems" jdbcType="VARCHAR" />
+    <result column="newslink" property="newslink" jdbcType="VARCHAR" />
+    <result column="newszhaiyao" property="newszhaiyao" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    newstitle, newstiems, newslink, newszhaiyao
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.scrapy.crawl.entity.FirstprionewsExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from firstprionews
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from firstprionews
+    where newstitle = #{newstitle,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from firstprionews
+    where newstitle = #{newstitle,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.scrapy.crawl.entity.FirstprionewsExample" >
+    delete from firstprionews
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.scrapy.crawl.entity.Firstprionews" >
+    insert into firstprionews (newstitle, newstiems, newslink, 
+      newszhaiyao)
+    values (#{newstitle,jdbcType=VARCHAR}, #{newstiems,jdbcType=VARCHAR}, #{newslink,jdbcType=VARCHAR}, 
+      #{newszhaiyao,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.scrapy.crawl.entity.Firstprionews" >
+    insert into firstprionews
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="newstitle != null" >
+        newstitle,
+      </if>
+      <if test="newstiems != null" >
+        newstiems,
+      </if>
+      <if test="newslink != null" >
+        newslink,
+      </if>
+      <if test="newszhaiyao != null" >
+        newszhaiyao,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="newstitle != null" >
+        #{newstitle,jdbcType=VARCHAR},
+      </if>
+      <if test="newstiems != null" >
+        #{newstiems,jdbcType=VARCHAR},
+      </if>
+      <if test="newslink != null" >
+        #{newslink,jdbcType=VARCHAR},
+      </if>
+      <if test="newszhaiyao != null" >
+        #{newszhaiyao,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.scrapy.crawl.entity.FirstprionewsExample" resultType="java.lang.Integer" >
+    select count(*) from firstprionews
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update firstprionews
+    <set >
+      <if test="record.newstitle != null" >
+        newstitle = #{record.newstitle,jdbcType=VARCHAR},
+      </if>
+      <if test="record.newstiems != null" >
+        newstiems = #{record.newstiems,jdbcType=VARCHAR},
+      </if>
+      <if test="record.newslink != null" >
+        newslink = #{record.newslink,jdbcType=VARCHAR},
+      </if>
+      <if test="record.newszhaiyao != null" >
+        newszhaiyao = #{record.newszhaiyao,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update firstprionews
+    set newstitle = #{record.newstitle,jdbcType=VARCHAR},
+      newstiems = #{record.newstiems,jdbcType=VARCHAR},
+      newslink = #{record.newslink,jdbcType=VARCHAR},
+      newszhaiyao = #{record.newszhaiyao,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.scrapy.crawl.entity.Firstprionews" >
+    update firstprionews
+    <set >
+      <if test="newstiems != null" >
+        newstiems = #{newstiems,jdbcType=VARCHAR},
+      </if>
+      <if test="newslink != null" >
+        newslink = #{newslink,jdbcType=VARCHAR},
+      </if>
+      <if test="newszhaiyao != null" >
+        newszhaiyao = #{newszhaiyao,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where newstitle = #{newstitle,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.scrapy.crawl.entity.Firstprionews" >
+    update firstprionews
+    set newstiems = #{newstiems,jdbcType=VARCHAR},
+      newslink = #{newslink,jdbcType=VARCHAR},
+      newszhaiyao = #{newszhaiyao,jdbcType=VARCHAR}
+    where newstitle = #{newstitle,jdbcType=VARCHAR}
+  </update>
+</mapper>

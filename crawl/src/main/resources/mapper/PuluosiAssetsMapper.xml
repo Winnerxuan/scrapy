@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.scrapy.crawl.mapper.PuluosiAssetsMapper" >
+  <resultMap id="BaseResultMap" type="com.scrapy.crawl.entity.PuluosiAssets" >
+    <id column="asseturl" property="asseturl" jdbcType="VARCHAR" />
+    <result column="assetstitle" property="assetstitle" jdbcType="VARCHAR" />
+    <result column="assetaddress" property="assetaddress" jdbcType="VARCHAR" />
+    <result column="assetgaikuang" property="assetgaikuang" jdbcType="VARCHAR" />
+    <result column="area" property="area" jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.scrapy.crawl.entity.PuluosiAssets" extends="BaseResultMap" >
+    <result column="assetpeople" property="assetpeople" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    asseturl, assetstitle, assetaddress, assetgaikuang, area
+  </sql>
+  <sql id="Blob_Column_List" >
+    assetpeople
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.scrapy.crawl.entity.PuluosiAssetsExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from puluosi_assets
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.scrapy.crawl.entity.PuluosiAssetsExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from puluosi_assets
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from puluosi_assets
+    where asseturl = #{asseturl,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from puluosi_assets
+    where asseturl = #{asseturl,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.scrapy.crawl.entity.PuluosiAssetsExample" >
+    delete from puluosi_assets
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.scrapy.crawl.entity.PuluosiAssets" >
+    insert into puluosi_assets (asseturl, assetstitle, assetaddress, 
+      assetgaikuang, area, assetpeople
+      )
+    values (#{asseturl,jdbcType=VARCHAR}, #{assetstitle,jdbcType=VARCHAR}, #{assetaddress,jdbcType=VARCHAR}, 
+      #{assetgaikuang,jdbcType=VARCHAR}, #{area,jdbcType=VARCHAR}, #{assetpeople,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.scrapy.crawl.entity.PuluosiAssets" >
+    insert into puluosi_assets
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="asseturl != null" >
+        asseturl,
+      </if>
+      <if test="assetstitle != null" >
+        assetstitle,
+      </if>
+      <if test="assetaddress != null" >
+        assetaddress,
+      </if>
+      <if test="assetgaikuang != null" >
+        assetgaikuang,
+      </if>
+      <if test="area != null" >
+        area,
+      </if>
+      <if test="assetpeople != null" >
+        assetpeople,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="asseturl != null" >
+        #{asseturl,jdbcType=VARCHAR},
+      </if>
+      <if test="assetstitle != null" >
+        #{assetstitle,jdbcType=VARCHAR},
+      </if>
+      <if test="assetaddress != null" >
+        #{assetaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="assetgaikuang != null" >
+        #{assetgaikuang,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null" >
+        #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="assetpeople != null" >
+        #{assetpeople,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.scrapy.crawl.entity.PuluosiAssetsExample" resultType="java.lang.Integer" >
+    select count(*) from puluosi_assets
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update puluosi_assets
+    <set >
+      <if test="record.asseturl != null" >
+        asseturl = #{record.asseturl,jdbcType=VARCHAR},
+      </if>
+      <if test="record.assetstitle != null" >
+        assetstitle = #{record.assetstitle,jdbcType=VARCHAR},
+      </if>
+      <if test="record.assetaddress != null" >
+        assetaddress = #{record.assetaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="record.assetgaikuang != null" >
+        assetgaikuang = #{record.assetgaikuang,jdbcType=VARCHAR},
+      </if>
+      <if test="record.area != null" >
+        area = #{record.area,jdbcType=VARCHAR},
+      </if>
+      <if test="record.assetpeople != null" >
+        assetpeople = #{record.assetpeople,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update puluosi_assets
+    set asseturl = #{record.asseturl,jdbcType=VARCHAR},
+      assetstitle = #{record.assetstitle,jdbcType=VARCHAR},
+      assetaddress = #{record.assetaddress,jdbcType=VARCHAR},
+      assetgaikuang = #{record.assetgaikuang,jdbcType=VARCHAR},
+      area = #{record.area,jdbcType=VARCHAR},
+      assetpeople = #{record.assetpeople,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update puluosi_assets
+    set asseturl = #{record.asseturl,jdbcType=VARCHAR},
+      assetstitle = #{record.assetstitle,jdbcType=VARCHAR},
+      assetaddress = #{record.assetaddress,jdbcType=VARCHAR},
+      assetgaikuang = #{record.assetgaikuang,jdbcType=VARCHAR},
+      area = #{record.area,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.scrapy.crawl.entity.PuluosiAssets" >
+    update puluosi_assets
+    <set >
+      <if test="assetstitle != null" >
+        assetstitle = #{assetstitle,jdbcType=VARCHAR},
+      </if>
+      <if test="assetaddress != null" >
+        assetaddress = #{assetaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="assetgaikuang != null" >
+        assetgaikuang = #{assetgaikuang,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null" >
+        area = #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="assetpeople != null" >
+        assetpeople = #{assetpeople,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where asseturl = #{asseturl,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.scrapy.crawl.entity.PuluosiAssets" >
+    update puluosi_assets
+    set assetstitle = #{assetstitle,jdbcType=VARCHAR},
+      assetaddress = #{assetaddress,jdbcType=VARCHAR},
+      assetgaikuang = #{assetgaikuang,jdbcType=VARCHAR},
+      area = #{area,jdbcType=VARCHAR},
+      assetpeople = #{assetpeople,jdbcType=LONGVARCHAR}
+    where asseturl = #{asseturl,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.scrapy.crawl.entity.PuluosiAssets" >
+    update puluosi_assets
+    set assetstitle = #{assetstitle,jdbcType=VARCHAR},
+      assetaddress = #{assetaddress,jdbcType=VARCHAR},
+      assetgaikuang = #{assetgaikuang,jdbcType=VARCHAR},
+      area = #{area,jdbcType=VARCHAR}
+    where asseturl = #{asseturl,jdbcType=VARCHAR}
+  </update>
+  <select id="areasum" resultType="java.lang.Double">
+    select sum(area) from puluosi_assets
+  </select>
+</mapper>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.scrapy.crawl.mapper.FengshuAssetMapper" >
+  <resultMap id="BaseResultMap" type="com.scrapy.crawl.entity.FengshuAsset" >
+    <id column="assettitle" property="assettitle" jdbcType="VARCHAR" />
+    <result column="area" property="area" jdbcType="VARCHAR" />
+    <result column="assetchuzumianji" property="assetchuzumianji" jdbcType="VARCHAR" />
+    <result column="assetaddress" property="assetaddress" jdbcType="VARCHAR" />
+    <result column="assetrongzi" property="assetrongzi" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    assettitle, area, assetchuzumianji, assetaddress, assetrongzi
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.scrapy.crawl.entity.FengshuAssetExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from fengshu_asset
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from fengshu_asset
+    where assettitle = #{assettitle,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from fengshu_asset
+    where assettitle = #{assettitle,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.scrapy.crawl.entity.FengshuAssetExample" >
+    delete from fengshu_asset
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.scrapy.crawl.entity.FengshuAsset" >
+    insert into fengshu_asset (assettitle, area, assetchuzumianji, 
+      assetaddress, assetrongzi)
+    values (#{assettitle,jdbcType=VARCHAR}, #{area,jdbcType=VARCHAR}, #{assetchuzumianji,jdbcType=VARCHAR}, 
+      #{assetaddress,jdbcType=VARCHAR}, #{assetrongzi,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.scrapy.crawl.entity.FengshuAsset" >
+    insert into fengshu_asset
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="assettitle != null" >
+        assettitle,
+      </if>
+      <if test="area != null" >
+        area,
+      </if>
+      <if test="assetchuzumianji != null" >
+        assetchuzumianji,
+      </if>
+      <if test="assetaddress != null" >
+        assetaddress,
+      </if>
+      <if test="assetrongzi != null" >
+        assetrongzi,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="assettitle != null" >
+        #{assettitle,jdbcType=VARCHAR},
+      </if>
+      <if test="area != null" >
+        #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="assetchuzumianji != null" >
+        #{assetchuzumianji,jdbcType=VARCHAR},
+      </if>
+      <if test="assetaddress != null" >
+        #{assetaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="assetrongzi != null" >
+        #{assetrongzi,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.scrapy.crawl.entity.FengshuAssetExample" resultType="java.lang.Integer" >
+    select count(*) from fengshu_asset
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update fengshu_asset
+    <set >
+      <if test="record.assettitle != null" >
+        assettitle = #{record.assettitle,jdbcType=VARCHAR},
+      </if>
+      <if test="record.area != null" >
+        area = #{record.area,jdbcType=VARCHAR},
+      </if>
+      <if test="record.assetchuzumianji != null" >
+        assetchuzumianji = #{record.assetchuzumianji,jdbcType=VARCHAR},
+      </if>
+      <if test="record.assetaddress != null" >
+        assetaddress = #{record.assetaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="record.assetrongzi != null" >
+        assetrongzi = #{record.assetrongzi,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update fengshu_asset
+    set assettitle = #{record.assettitle,jdbcType=VARCHAR},
+      area = #{record.area,jdbcType=VARCHAR},
+      assetchuzumianji = #{record.assetchuzumianji,jdbcType=VARCHAR},
+      assetaddress = #{record.assetaddress,jdbcType=VARCHAR},
+      assetrongzi = #{record.assetrongzi,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.scrapy.crawl.entity.FengshuAsset" >
+    update fengshu_asset
+    <set >
+      <if test="area != null" >
+        area = #{area,jdbcType=VARCHAR},
+      </if>
+      <if test="assetchuzumianji != null" >
+        assetchuzumianji = #{assetchuzumianji,jdbcType=VARCHAR},
+      </if>
+      <if test="assetaddress != null" >
+        assetaddress = #{assetaddress,jdbcType=VARCHAR},
+      </if>
+      <if test="assetrongzi != null" >
+        assetrongzi = #{assetrongzi,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where assettitle = #{assettitle,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.scrapy.crawl.entity.FengshuAsset" >
+    update fengshu_asset
+    set area = #{area,jdbcType=VARCHAR},
+      assetchuzumianji = #{assetchuzumianji,jdbcType=VARCHAR},
+      assetaddress = #{assetaddress,jdbcType=VARCHAR},
+      assetrongzi = #{assetrongzi,jdbcType=VARCHAR}
+    where assettitle = #{assettitle,jdbcType=VARCHAR}
+  </update>
+
+  <select id="areasum" resultType="java.lang.Double">
+    select sum(area) from fengshu_asset
+  </select>
+</mapper>
