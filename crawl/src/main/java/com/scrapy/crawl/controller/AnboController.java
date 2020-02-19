@@ -3,7 +3,6 @@ package com.scrapy.crawl.controller;
 import com.scrapy.crawl.entity.Anbo;
 import com.scrapy.crawl.entity.AnboExample;
 import com.scrapy.crawl.entity.AnboNews;
-import com.scrapy.crawl.entity.AnboNewsExample;
 import com.scrapy.crawl.mapper.AnboMapper;
 import com.scrapy.crawl.mapper.AnboNewsMapper;
 import io.swagger.annotations.Api;
@@ -46,8 +45,8 @@ public class AnboController {
     @ApiOperation(value = "安博大事件信息",notes = "安博大事件信息")
     @ResponseBody
     public List<AnboNews> Anbonews() {
-        AnboNewsExample anbonewsExample = new AnboNewsExample();
-        return anboNewsMapper.selectByExample(anbonewsExample);
+        //AnboNewsExample anbonewsExample = new AnboNewsExample();
+        return anboNewsMapper.selectByDesc();
     }
 
 }

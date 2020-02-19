@@ -2,15 +2,16 @@ package com.scrapy.crawl.mapper;
 
 import com.scrapy.crawl.entity.Anbo;
 import com.scrapy.crawl.entity.AnboExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface AnboMapper {
     int countByExample(AnboExample example);
 
     int deleteByExample(AnboExample example);
 
-    int deleteByPrimaryKey(String name);
+    int deleteByPrimaryKey(String assetstitle);
 
     int insert(Anbo record);
 
@@ -18,7 +19,7 @@ public interface AnboMapper {
 
     List<Anbo> selectByExample(AnboExample example);
 
-    Anbo selectByPrimaryKey(String name);
+    Anbo selectByPrimaryKey(String assetstitle);
 
     int updateByExampleSelective(@Param("record") Anbo record, @Param("example") AnboExample example);
 

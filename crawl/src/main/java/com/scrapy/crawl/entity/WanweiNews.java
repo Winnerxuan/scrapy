@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class WanweiNews implements Serializable {
     private String newstitle;
 
-    private String newstime;
+    private String newtimes;
 
     private String newslink;
 
@@ -21,12 +21,12 @@ public class WanweiNews implements Serializable {
         this.newstitle = newstitle == null ? null : newstitle.trim();
     }
 
-    public String getNewstime() {
-        return newstime;
+    public String getNewtimes() {
+        return newtimes;
     }
 
-    public void setNewstime(String newstime) {
-        this.newstime = newstime == null ? null : newstime.trim();
+    public void setNewtimes(String newtimes) {
+        this.newtimes = newtimes == null ? null : newtimes.trim();
     }
 
     public String getNewslink() {
@@ -58,7 +58,7 @@ public class WanweiNews implements Serializable {
         }
         WanweiNews other = (WanweiNews) that;
         return (this.getNewstitle() == null ? other.getNewstitle() == null : this.getNewstitle().equals(other.getNewstitle()))
-            && (this.getNewstime() == null ? other.getNewstime() == null : this.getNewstime().equals(other.getNewstime()))
+            && (this.getNewtimes() == null ? other.getNewtimes() == null : this.getNewtimes().equals(other.getNewtimes()))
             && (this.getNewslink() == null ? other.getNewslink() == null : this.getNewslink().equals(other.getNewslink()))
             && (this.getNewszhaiyao() == null ? other.getNewszhaiyao() == null : this.getNewszhaiyao().equals(other.getNewszhaiyao()));
     }
@@ -68,7 +68,7 @@ public class WanweiNews implements Serializable {
         final int prime = 31;
         int result = 1;
         result = prime * result + ((getNewstitle() == null) ? 0 : getNewstitle().hashCode());
-        result = prime * result + ((getNewstime() == null) ? 0 : getNewstime().hashCode());
+        result = prime * result + ((getNewtimes() == null) ? 0 : getNewtimes().hashCode());
         result = prime * result + ((getNewslink() == null) ? 0 : getNewslink().hashCode());
         result = prime * result + ((getNewszhaiyao() == null) ? 0 : getNewszhaiyao().hashCode());
         return result;
@@ -81,7 +81,7 @@ public class WanweiNews implements Serializable {
         sb.append(" [");
         sb.append("Hash = ").append(hashCode());
         sb.append(", newstitle=").append(newstitle);
-        sb.append(", newstime=").append(newstime);
+        sb.append(", newtimes=").append(newtimes);
         sb.append(", newslink=").append(newslink);
         sb.append(", newszhaiyao=").append(newszhaiyao);
         sb.append(", serialVersionUID=").append(serialVersionUID);

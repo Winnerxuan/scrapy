@@ -4,10 +4,10 @@
         "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
 <generatorConfiguration>
 
-    <classPathEntry  location="/Users/magical61/.m2/repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.jar"/>
+    <classPathEntry  location="D:/java/mavenRepository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.jar"/>
 
     <context id="test" targetRuntime="MyBatis3">
-        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"></plugin>  
+        <plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin"></plugin>
         <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin> 
         <plugin type="org.mybatis.generator.plugins.ToStringPlugin"></plugin>
         <commentGenerator>
@@ -19,7 +19,7 @@
         </commentGenerator>
         <!--数据库链接URL，用户名、密码 -->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-            connectionURL="jdbc:mysql://localhost:3306/Scrapy?nullCatalogMeansCurrent=true&amp;serverTimezone=GMT"
+            connectionURL="jdbc:mysql://10.100.30.104:3306/Scrapy?nullCatalogMeansCurrent=true&amp;serverTimezone=GMT"
             userId="root" password="Cndi@1234">
         </jdbcConnection>
         <javaTypeResolver>
@@ -45,23 +45,24 @@
         </javaClientGenerator>
         
         <!-- 要生成哪些表 -->
-        <table tableName="anbo_yuanqu" domainObjectName="Anbo"></table>
-        <table tableName="anbo_news" domainObjectName="AnboNews"></table>
+        <!--<table tableName="sf_jd" domainObjectName="jingdn"></table>-->
+       <!-- <table tableName="anbo_yuanqu" domainObjectName="Anbo"></table>-->
+<!--        <table tableName="anbo_news" domainObjectName="AnboNews"></table>
         <table tableName="esr_assets" domainObjectName="EsrAsset"></table>
-        <table tableName="esr_news" domainObjectName="EsrNews"></table>
-        <table tableName="fengshu_asset" domainObjectName="FengshuAsset"></table>
-        <table tableName="jiamin_news" domainObjectName="JiaminNews"></table>
-        <table tableName="jiamin_asset" domainObjectName="JiaminAsset"></table>
-        <table tableName="puluosi_assets" domainObjectName="PuluosiAssets"></table>
-        <table tableName="puluosi_news" domainObjectName="PuluosiNews"></table>
-        <table tableName="wanwei_yuanqu" domainObjectName="WanweiYuanqu"></table>
-        <table tableName="wanwei_news" domainObjectName="WanweiNews"></table>
-        <table tableName="weilong_yuanqu" domainObjectName="WeilongYuanqu"></table>
-        <table tableName="weilong_news" domainObjectName="WeilongNews"></table>
-        <table tableName="firstprio" domainObjectName="Firstprio"></table>
-        <table tableName="firstprionews" domainObjectName="Firstprionews"></table>
-        <table tableName="gigace_yuanqu" domainObjectName="GigaceYuanqu"></table>
-        <table tableName="toodc_yuanqu" domainObjectName="ToodcYuanqu"></table>
+        <table tableName="esr_news" domainObjectName="EsrNews"></table>-->
+     <!--   <table tableName="fengshu_asset" domainObjectName="FengshuAsset"></table>-->
+    <!--    <table tableName="jiamin_news" domainObjectName="JiaminNews"></table>-->
+       <!-- <table tableName="jiamin_asset" domainObjectName="JiaminAsset"></table>-->
+<!--        <table tableName="puluosi_assets" domainObjectName="PuluosiAssets"></table>
+        <table tableName="puluosi_news" domainObjectName="PuluosiNews"></table>-->
+        <!--<table tableName="wanwei_yuanqu" domainObjectName="WanweiYuanqu"></table>-->
+   <!--     <table tableName="wanwei_news" domainObjectName="WanweiNews"></table>-->
+        <!--<table tableName="weilong_yuanqu" domainObjectName="WeilongYuanqu"></table>-->
+       <!-- <table tableName="weilong_news" domainObjectName="WeilongNews"></table>-->
+     <!--   <table tableName="firstprio" domainObjectName="Firstprio"></table>-->
+       <!-- <table tableName="newChinaland_V" domainObjectName="newChinaland_V"></table>-->
+   <!--     <table tableName="gigace_yuanqu" domainObjectName="GigaceYuanqu"></table>
+        <table tableName="toodc_yuanqu" domainObjectName="ToodcYuanqu"></table>-->
 
 
     </context>

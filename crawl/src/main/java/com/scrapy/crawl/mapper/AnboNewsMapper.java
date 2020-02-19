@@ -2,8 +2,9 @@ package com.scrapy.crawl.mapper;
 
 import com.scrapy.crawl.entity.AnboNews;
 import com.scrapy.crawl.entity.AnboNewsExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface AnboNewsMapper {
     int countByExample(AnboNewsExample example);
@@ -27,4 +28,6 @@ public interface AnboNewsMapper {
     int updateByPrimaryKeySelective(AnboNews record);
 
     int updateByPrimaryKey(AnboNews record);
+
+    List<AnboNews> selectByDesc();
 }

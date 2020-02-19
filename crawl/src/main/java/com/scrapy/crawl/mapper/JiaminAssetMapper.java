@@ -2,8 +2,9 @@ package com.scrapy.crawl.mapper;
 
 import com.scrapy.crawl.entity.JiaminAsset;
 import com.scrapy.crawl.entity.JiaminAssetExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface JiaminAssetMapper {
     int countByExample(JiaminAssetExample example);

@@ -46,7 +46,7 @@ public class EsrController {
     @ResponseBody
     public List<EsrNews> EsrNews(){
         EsrNewsExample esrNewsExample = new EsrNewsExample();
-        return esrNewsMapper.selectByExample(esrNewsExample);
+        return esrNewsMapper.selectByDesc();
     }
 
 }

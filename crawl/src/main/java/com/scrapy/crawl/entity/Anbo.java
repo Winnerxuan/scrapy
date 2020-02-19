@@ -3,7 +3,7 @@ package com.scrapy.crawl.entity;
 import java.io.Serializable;
 
 public class Anbo implements Serializable {
-    private String name;
+    private String assetstitle;
 
     private String location;
 
@@ -13,12 +13,12 @@ public class Anbo implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    public String getName() {
-        return name;
+    public String getAssetstitle() {
+        return assetstitle;
     }
 
-    public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+    public void setAssetstitle(String assetstitle) {
+        this.assetstitle = assetstitle == null ? null : assetstitle.trim();
     }
 
     public String getLocation() {
@@ -57,7 +57,7 @@ public class Anbo implements Serializable {
             return false;
         }
         Anbo other = (Anbo) that;
-        return (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
+        return (this.getAssetstitle() == null ? other.getAssetstitle() == null : this.getAssetstitle().equals(other.getAssetstitle()))
             && (this.getLocation() == null ? other.getLocation() == null : this.getLocation().equals(other.getLocation()))
             && (this.getArea() == null ? other.getArea() == null : this.getArea().equals(other.getArea()))
             && (this.getWarehousetype() == null ? other.getWarehousetype() == null : this.getWarehousetype().equals(other.getWarehousetype()));
@@ -67,7 +67,7 @@ public class Anbo implements Serializable {
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + ((getName() == null) ? 0 : getName().hashCode());
+        result = prime * result + ((getAssetstitle() == null) ? 0 : getAssetstitle().hashCode());
         result = prime * result + ((getLocation() == null) ? 0 : getLocation().hashCode());
         result = prime * result + ((getArea() == null) ? 0 : getArea().hashCode());
         result = prime * result + ((getWarehousetype() == null) ? 0 : getWarehousetype().hashCode());
@@ -80,7 +80,7 @@ public class Anbo implements Serializable {
         sb.append(getClass().getSimpleName());
         sb.append(" [");
         sb.append("Hash = ").append(hashCode());
-        sb.append(", name=").append(name);
+        sb.append(", assetstitle=").append(assetstitle);
         sb.append(", location=").append(location);
         sb.append(", area=").append(area);
         sb.append(", warehousetype=").append(warehousetype);

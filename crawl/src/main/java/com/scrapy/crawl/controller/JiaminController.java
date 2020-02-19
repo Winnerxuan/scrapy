@@ -48,6 +48,6 @@ public class JiaminController {
     @ResponseBody
     public List<JiaminNews>  jiaminNews(){
         JiaminNewsExample jiaminNewsExample = new JiaminNewsExample();
-        return jiaminNewsMapper.selectByExample(jiaminNewsExample);
+        return jiaminNewsMapper.selectByDesc();
     }
 }

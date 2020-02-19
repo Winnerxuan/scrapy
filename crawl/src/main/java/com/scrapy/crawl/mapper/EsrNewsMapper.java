@@ -2,8 +2,9 @@ package com.scrapy.crawl.mapper;
 
 import com.scrapy.crawl.entity.EsrNews;
 import com.scrapy.crawl.entity.EsrNewsExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface EsrNewsMapper {
     int countByExample(EsrNewsExample example);
@@ -27,4 +28,6 @@ public interface EsrNewsMapper {
     int updateByPrimaryKeySelective(EsrNews record);
 
     int updateByPrimaryKey(EsrNews record);
+
+    List<EsrNews> selectByDesc();
 }

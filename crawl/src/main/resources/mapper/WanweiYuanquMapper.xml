@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.scrapy.crawl.mapper.WanweiYuanquMapper" >
   <resultMap id="BaseResultMap" type="com.scrapy.crawl.entity.WanweiYuanqu" >
-    <id column="name" property="name" jdbcType="VARCHAR" />
+    <id column="assetstitle" property="assetstitle" jdbcType="VARCHAR" />
     <result column="location" property="location" jdbcType="VARCHAR" />
     <result column="area" property="area" jdbcType="VARCHAR" />
     <result column="feature" property="feature" jdbcType="VARCHAR" />
@@ -69,7 +69,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    name, location, area, feature, warehouseType, transportNet_air, transportNet_road
+    assetstitle, location, area, feature, warehouseType, transportNet_air, transportNet_road
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.scrapy.crawl.entity.WanweiYuanquExample" >
     select
@@ -89,11 +89,11 @@
     select 
     <include refid="Base_Column_List" />
     from wanwei_yuanqu
-    where name = #{name,jdbcType=VARCHAR}
+    where assetstitle = #{assetstitle,jdbcType=VARCHAR}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
     delete from wanwei_yuanqu
-    where name = #{name,jdbcType=VARCHAR}
+    where assetstitle = #{assetstitle,jdbcType=VARCHAR}
   </delete>
   <delete id="deleteByExample" parameterType="com.scrapy.crawl.entity.WanweiYuanquExample" >
     delete from wanwei_yuanqu
@@ -102,18 +102,18 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.scrapy.crawl.entity.WanweiYuanqu" >
-    insert into wanwei_yuanqu (name, location, area, 
+    insert into wanwei_yuanqu (assetstitle, location, area, 
       feature, warehouseType, transportNet_air, 
       transportNet_road)
-    values (#{name,jdbcType=VARCHAR}, #{location,jdbcType=VARCHAR}, #{area,jdbcType=VARCHAR}, 
+    values (#{assetstitle,jdbcType=VARCHAR}, #{location,jdbcType=VARCHAR}, #{area,jdbcType=VARCHAR}, 
       #{feature,jdbcType=VARCHAR}, #{warehousetype,jdbcType=VARCHAR}, #{transportnetAir,jdbcType=VARCHAR}, 
       #{transportnetRoad,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.scrapy.crawl.entity.WanweiYuanqu" >
     insert into wanwei_yuanqu
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="name != null" >
-        name,
+      <if test="assetstitle != null" >
+        assetstitle,
       </if>
       <if test="location != null" >
         location,
@@ -135,8 +135,8 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="name != null" >
-        #{name,jdbcType=VARCHAR},
+      <if test="assetstitle != null" >
+        #{assetstitle,jdbcType=VARCHAR},
       </if>
       <if test="location != null" >
         #{location,jdbcType=VARCHAR},
@@ -167,8 +167,8 @@
   <update id="updateByExampleSelective" parameterType="map" >
     update wanwei_yuanqu
     <set >
-      <if test="record.name != null" >
-        name = #{record.name,jdbcType=VARCHAR},
+      <if test="record.assetstitle != null" >
+        assetstitle = #{record.assetstitle,jdbcType=VARCHAR},
       </if>
       <if test="record.location != null" >
         location = #{record.location,jdbcType=VARCHAR},
@@ -195,7 +195,7 @@
   </update>
   <update id="updateByExample" parameterType="map" >
     update wanwei_yuanqu
-    set name = #{record.name,jdbcType=VARCHAR},
+    set assetstitle = #{record.assetstitle,jdbcType=VARCHAR},
       location = #{record.location,jdbcType=VARCHAR},
       area = #{record.area,jdbcType=VARCHAR},
       feature = #{record.feature,jdbcType=VARCHAR},
@@ -228,7 +228,7 @@
         transportNet_road = #{transportnetRoad,jdbcType=VARCHAR},
       </if>
     </set>
-    where name = #{name,jdbcType=VARCHAR}
+    where assetstitle = #{assetstitle,jdbcType=VARCHAR}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.scrapy.crawl.entity.WanweiYuanqu" >
     update wanwei_yuanqu
@@ -238,7 +238,7 @@
       warehouseType = #{warehousetype,jdbcType=VARCHAR},
       transportNet_air = #{transportnetAir,jdbcType=VARCHAR},
       transportNet_road = #{transportnetRoad,jdbcType=VARCHAR}
-    where name = #{name,jdbcType=VARCHAR}
+    where assetstitle = #{assetstitle,jdbcType=VARCHAR}
   </update>
   <select id="areasum" resultType="java.lang.Double">
     select sum(area) from wanwei_yuanqu

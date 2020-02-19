@@ -2,8 +2,9 @@ package com.scrapy.crawl.mapper;
 
 import com.scrapy.crawl.entity.WanweiNews;
 import com.scrapy.crawl.entity.WanweiNewsExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface WanweiNewsMapper {
     int countByExample(WanweiNewsExample example);
@@ -28,5 +29,5 @@ public interface WanweiNewsMapper {
 
     int updateByPrimaryKey(WanweiNews record);
 
-
+    List<WanweiNews> selectByDesc();
 }

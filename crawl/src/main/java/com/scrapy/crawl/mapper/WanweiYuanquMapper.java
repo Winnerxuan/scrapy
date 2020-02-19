@@ -2,15 +2,16 @@ package com.scrapy.crawl.mapper;
 
 import com.scrapy.crawl.entity.WanweiYuanqu;
 import com.scrapy.crawl.entity.WanweiYuanquExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface WanweiYuanquMapper {
     int countByExample(WanweiYuanquExample example);
 
     int deleteByExample(WanweiYuanquExample example);
 
-    int deleteByPrimaryKey(String name);
+    int deleteByPrimaryKey(String assetstitle);
 
     int insert(WanweiYuanqu record);
 
@@ -18,7 +19,7 @@ public interface WanweiYuanquMapper {
 
     List<WanweiYuanqu> selectByExample(WanweiYuanquExample example);
 
-    WanweiYuanqu selectByPrimaryKey(String name);
+    WanweiYuanqu selectByPrimaryKey(String assetstitle);
 
     int updateByExampleSelective(@Param("record") WanweiYuanqu record, @Param("example") WanweiYuanquExample example);
 

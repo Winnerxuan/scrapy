@@ -104,73 +104,73 @@ public class FirstprioExample {
             criteria.add(new Criterion(condition, value1, value2));
         }
 
-        public Criteria andAssettitleIsNull() {
-            addCriterion("assettitle is null");
+        public Criteria andAssetstitleIsNull() {
+            addCriterion("assetstitle is null");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleIsNotNull() {
-            addCriterion("assettitle is not null");
+        public Criteria andAssetstitleIsNotNull() {
+            addCriterion("assetstitle is not null");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleEqualTo(String value) {
-            addCriterion("assettitle =", value, "assettitle");
+        public Criteria andAssetstitleEqualTo(String value) {
+            addCriterion("assetstitle =", value, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleNotEqualTo(String value) {
-            addCriterion("assettitle <>", value, "assettitle");
+        public Criteria andAssetstitleNotEqualTo(String value) {
+            addCriterion("assetstitle <>", value, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleGreaterThan(String value) {
-            addCriterion("assettitle >", value, "assettitle");
+        public Criteria andAssetstitleGreaterThan(String value) {
+            addCriterion("assetstitle >", value, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleGreaterThanOrEqualTo(String value) {
-            addCriterion("assettitle >=", value, "assettitle");
+        public Criteria andAssetstitleGreaterThanOrEqualTo(String value) {
+            addCriterion("assetstitle >=", value, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleLessThan(String value) {
-            addCriterion("assettitle <", value, "assettitle");
+        public Criteria andAssetstitleLessThan(String value) {
+            addCriterion("assetstitle <", value, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleLessThanOrEqualTo(String value) {
-            addCriterion("assettitle <=", value, "assettitle");
+        public Criteria andAssetstitleLessThanOrEqualTo(String value) {
+            addCriterion("assetstitle <=", value, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleLike(String value) {
-            addCriterion("assettitle like", value, "assettitle");
+        public Criteria andAssetstitleLike(String value) {
+            addCriterion("assetstitle like", value, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleNotLike(String value) {
-            addCriterion("assettitle not like", value, "assettitle");
+        public Criteria andAssetstitleNotLike(String value) {
+            addCriterion("assetstitle not like", value, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleIn(List<String> values) {
-            addCriterion("assettitle in", values, "assettitle");
+        public Criteria andAssetstitleIn(List<String> values) {
+            addCriterion("assetstitle in", values, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleNotIn(List<String> values) {
-            addCriterion("assettitle not in", values, "assettitle");
+        public Criteria andAssetstitleNotIn(List<String> values) {
+            addCriterion("assetstitle not in", values, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleBetween(String value1, String value2) {
-            addCriterion("assettitle between", value1, value2, "assettitle");
+        public Criteria andAssetstitleBetween(String value1, String value2) {
+            addCriterion("assetstitle between", value1, value2, "assetstitle");
             return (Criteria) this;
         }
 
-        public Criteria andAssettitleNotBetween(String value1, String value2) {
-            addCriterion("assettitle not between", value1, value2, "assettitle");
+        public Criteria andAssetstitleNotBetween(String value1, String value2) {
+            addCriterion("assetstitle not between", value1, value2, "assetstitle");
             return (Criteria) this;
         }
 

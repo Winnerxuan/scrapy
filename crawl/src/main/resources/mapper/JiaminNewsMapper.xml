@@ -4,7 +4,7 @@
   <resultMap id="BaseResultMap" type="com.scrapy.crawl.entity.JiaminNews" >
     <id column="newslink" property="newslink" jdbcType="VARCHAR" />
     <result column="newstitle" property="newstitle" jdbcType="VARCHAR" />
-    <result column="newtiems" property="newtiems" jdbcType="VARCHAR" />
+    <result column="newtimes" property="newtimes" jdbcType="VARCHAR" />
     <result column="newszhaiyao" property="newszhaiyao" jdbcType="VARCHAR" />
   </resultMap>
   <sql id="Example_Where_Clause" >
@@ -66,7 +66,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    newslink, newstitle, newtiems, newszhaiyao
+    newslink, newstitle, newtimes, newszhaiyao
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.scrapy.crawl.entity.JiaminNewsExample" >
     select
@@ -99,9 +99,9 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.scrapy.crawl.entity.JiaminNews" >
-    insert into jiamin_news (newslink, newstitle, newtiems, 
+    insert into jiamin_news (newslink, newstitle, newtimes, 
       newszhaiyao)
-    values (#{newslink,jdbcType=VARCHAR}, #{newstitle,jdbcType=VARCHAR}, #{newtiems,jdbcType=VARCHAR}, 
+    values (#{newslink,jdbcType=VARCHAR}, #{newstitle,jdbcType=VARCHAR}, #{newtimes,jdbcType=VARCHAR}, 
       #{newszhaiyao,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.scrapy.crawl.entity.JiaminNews" >
@@ -113,8 +113,8 @@
       <if test="newstitle != null" >
         newstitle,
       </if>
-      <if test="newtiems != null" >
-        newtiems,
+      <if test="newtimes != null" >
+        newtimes,
       </if>
       <if test="newszhaiyao != null" >
         newszhaiyao,
@@ -127,8 +127,8 @@
       <if test="newstitle != null" >
         #{newstitle,jdbcType=VARCHAR},
       </if>
-      <if test="newtiems != null" >
-        #{newtiems,jdbcType=VARCHAR},
+      <if test="newtimes != null" >
+        #{newtimes,jdbcType=VARCHAR},
       </if>
       <if test="newszhaiyao != null" >
         #{newszhaiyao,jdbcType=VARCHAR},
@@ -150,8 +150,8 @@
       <if test="record.newstitle != null" >
         newstitle = #{record.newstitle,jdbcType=VARCHAR},
       </if>
-      <if test="record.newtiems != null" >
-        newtiems = #{record.newtiems,jdbcType=VARCHAR},
+      <if test="record.newtimes != null" >
+        newtimes = #{record.newtimes,jdbcType=VARCHAR},
       </if>
       <if test="record.newszhaiyao != null" >
         newszhaiyao = #{record.newszhaiyao,jdbcType=VARCHAR},
@@ -165,7 +165,7 @@
     update jiamin_news
     set newslink = #{record.newslink,jdbcType=VARCHAR},
       newstitle = #{record.newstitle,jdbcType=VARCHAR},
-      newtiems = #{record.newtiems,jdbcType=VARCHAR},
+      newtimes = #{record.newtimes,jdbcType=VARCHAR},
       newszhaiyao = #{record.newszhaiyao,jdbcType=VARCHAR}
     <if test="_parameter != null" >
       <include refid="Update_By_Example_Where_Clause" />
@@ -177,8 +177,8 @@
       <if test="newstitle != null" >
         newstitle = #{newstitle,jdbcType=VARCHAR},
       </if>
-      <if test="newtiems != null" >
-        newtiems = #{newtiems,jdbcType=VARCHAR},
+      <if test="newtimes != null" >
+        newtimes = #{newtimes,jdbcType=VARCHAR},
       </if>
       <if test="newszhaiyao != null" >
         newszhaiyao = #{newszhaiyao,jdbcType=VARCHAR},
@@ -189,8 +189,12 @@
   <update id="updateByPrimaryKey" parameterType="com.scrapy.crawl.entity.JiaminNews" >
     update jiamin_news
     set newstitle = #{newstitle,jdbcType=VARCHAR},
-      newtiems = #{newtiems,jdbcType=VARCHAR},
+      newtimes = #{newtimes,jdbcType=VARCHAR},
       newszhaiyao = #{newszhaiyao,jdbcType=VARCHAR}
     where newslink = #{newslink,jdbcType=VARCHAR}
   </update>
+
+  <select id="selectByDesc" resultMap="BaseResultMap" >
+    select * from jiamin_news where 1=1 order by newtimes DESC
+  </select>
 </mapper>

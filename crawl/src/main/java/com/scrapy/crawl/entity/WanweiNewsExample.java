@@ -174,73 +174,73 @@ public class WanweiNewsExample {
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeIsNull() {
-            addCriterion("newstime is null");
+        public Criteria andNewtimesIsNull() {
+            addCriterion("newtimes is null");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeIsNotNull() {
-            addCriterion("newstime is not null");
+        public Criteria andNewtimesIsNotNull() {
+            addCriterion("newtimes is not null");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeEqualTo(String value) {
-            addCriterion("newstime =", value, "newstime");
+        public Criteria andNewtimesEqualTo(String value) {
+            addCriterion("newtimes =", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeNotEqualTo(String value) {
-            addCriterion("newstime <>", value, "newstime");
+        public Criteria andNewtimesNotEqualTo(String value) {
+            addCriterion("newtimes <>", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeGreaterThan(String value) {
-            addCriterion("newstime >", value, "newstime");
+        public Criteria andNewtimesGreaterThan(String value) {
+            addCriterion("newtimes >", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeGreaterThanOrEqualTo(String value) {
-            addCriterion("newstime >=", value, "newstime");
+        public Criteria andNewtimesGreaterThanOrEqualTo(String value) {
+            addCriterion("newtimes >=", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeLessThan(String value) {
-            addCriterion("newstime <", value, "newstime");
+        public Criteria andNewtimesLessThan(String value) {
+            addCriterion("newtimes <", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeLessThanOrEqualTo(String value) {
-            addCriterion("newstime <=", value, "newstime");
+        public Criteria andNewtimesLessThanOrEqualTo(String value) {
+            addCriterion("newtimes <=", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeLike(String value) {
-            addCriterion("newstime like", value, "newstime");
+        public Criteria andNewtimesLike(String value) {
+            addCriterion("newtimes like", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeNotLike(String value) {
-            addCriterion("newstime not like", value, "newstime");
+        public Criteria andNewtimesNotLike(String value) {
+            addCriterion("newtimes not like", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeIn(List<String> values) {
-            addCriterion("newstime in", values, "newstime");
+        public Criteria andNewtimesIn(List<String> values) {
+            addCriterion("newtimes in", values, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeNotIn(List<String> values) {
-            addCriterion("newstime not in", values, "newstime");
+        public Criteria andNewtimesNotIn(List<String> values) {
+            addCriterion("newtimes not in", values, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeBetween(String value1, String value2) {
-            addCriterion("newstime between", value1, value2, "newstime");
+        public Criteria andNewtimesBetween(String value1, String value2) {
+            addCriterion("newtimes between", value1, value2, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewstimeNotBetween(String value1, String value2) {
-            addCriterion("newstime not between", value1, value2, "newstime");
+        public Criteria andNewtimesNotBetween(String value1, String value2) {
+            addCriterion("newtimes not between", value1, value2, "newtimes");
             return (Criteria) this;
         }
 

@@ -3,7 +3,7 @@ package com.scrapy.crawl.entity;
 import java.io.Serializable;
 
 public class Firstprio implements Serializable {
-    private String assettitle;
+    private String assetstitle;
 
     private String assetjianjie;
 
@@ -15,12 +15,12 @@ public class Firstprio implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    public String getAssettitle() {
-        return assettitle;
+    public String getAssetstitle() {
+        return assetstitle;
     }
 
-    public void setAssettitle(String assettitle) {
-        this.assettitle = assettitle == null ? null : assettitle.trim();
+    public void setAssetstitle(String assetstitle) {
+        this.assetstitle = assetstitle == null ? null : assetstitle.trim();
     }
 
     public String getAssetjianjie() {
@@ -67,7 +67,7 @@ public class Firstprio implements Serializable {
             return false;
         }
         Firstprio other = (Firstprio) that;
-        return (this.getAssettitle() == null ? other.getAssettitle() == null : this.getAssettitle().equals(other.getAssettitle()))
+        return (this.getAssetstitle() == null ? other.getAssetstitle() == null : this.getAssetstitle().equals(other.getAssetstitle()))
             && (this.getAssetjianjie() == null ? other.getAssetjianjie() == null : this.getAssetjianjie().equals(other.getAssetjianjie()))
             && (this.getArea() == null ? other.getArea() == null : this.getArea().equals(other.getArea()))
             && (this.getAssetlocation() == null ? other.getAssetlocation() == null : this.getAssetlocation().equals(other.getAssetlocation()))
@@ -78,7 +78,7 @@ public class Firstprio implements Serializable {
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + ((getAssettitle() == null) ? 0 : getAssettitle().hashCode());
+        result = prime * result + ((getAssetstitle() == null) ? 0 : getAssetstitle().hashCode());
         result = prime * result + ((getAssetjianjie() == null) ? 0 : getAssetjianjie().hashCode());
         result = prime * result + ((getArea() == null) ? 0 : getArea().hashCode());
         result = prime * result + ((getAssetlocation() == null) ? 0 : getAssetlocation().hashCode());
@@ -92,7 +92,7 @@ public class Firstprio implements Serializable {
         sb.append(getClass().getSimpleName());
         sb.append(" [");
         sb.append("Hash = ").append(hashCode());
-        sb.append(", assettitle=").append(assettitle);
+        sb.append(", assetstitle=").append(assetstitle);
         sb.append(", assetjianjie=").append(assetjianjie);
         sb.append(", area=").append(area);
         sb.append(", assetlocation=").append(assetlocation);

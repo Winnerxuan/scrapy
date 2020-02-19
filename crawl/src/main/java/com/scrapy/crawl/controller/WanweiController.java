@@ -47,7 +47,7 @@ public class WanweiController {
     @ResponseBody
     public List<WanweiNews> selectbynewsid(){
         WanweiNewsExample wanweiYuanquExample = new WanweiNewsExample();
-        return wanweiNewsMapper.selectByExample(wanweiYuanquExample);
+        return wanweiNewsMapper.selectByDesc();
     }
 
 }

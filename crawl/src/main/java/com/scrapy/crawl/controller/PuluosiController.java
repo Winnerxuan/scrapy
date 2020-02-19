@@ -47,6 +47,6 @@ public class PuluosiController {
     @ResponseBody
     public List<PuluosiNews> PuluosiNews(){
         PuluosiNewsExample puluosiNewsExample = new PuluosiNewsExample();
-        return puluosiNewsMapper.selectByExample(puluosiNewsExample);
+        return puluosiNewsMapper.selectByDesc();
     }
 }

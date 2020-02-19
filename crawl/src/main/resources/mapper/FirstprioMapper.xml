@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.scrapy.crawl.mapper.FirstprioMapper" >
   <resultMap id="BaseResultMap" type="com.scrapy.crawl.entity.Firstprio" >
-    <id column="assettitle" property="assettitle" jdbcType="VARCHAR" />
+    <id column="assetstitle" property="assetstitle" jdbcType="VARCHAR" />
     <result column="assetjianjie" property="assetjianjie" jdbcType="VARCHAR" />
     <result column="area" property="area" jdbcType="VARCHAR" />
     <result column="assetlocation" property="assetlocation" jdbcType="VARCHAR" />
@@ -67,7 +67,7 @@
     </where>
   </sql>
   <sql id="Base_Column_List" >
-    assettitle, assetjianjie, area, assetlocation, assetcangkujiegou
+    assetstitle, assetjianjie, area, assetlocation, assetcangkujiegou
   </sql>
   <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.scrapy.crawl.entity.FirstprioExample" >
     select
@@ -87,11 +87,11 @@
     select 
     <include refid="Base_Column_List" />
     from firstprio
-    where assettitle = #{assettitle,jdbcType=VARCHAR}
+    where assetstitle = #{assetstitle,jdbcType=VARCHAR}
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
     delete from firstprio
-    where assettitle = #{assettitle,jdbcType=VARCHAR}
+    where assetstitle = #{assetstitle,jdbcType=VARCHAR}
   </delete>
   <delete id="deleteByExample" parameterType="com.scrapy.crawl.entity.FirstprioExample" >
     delete from firstprio
@@ -100,16 +100,16 @@
     </if>
   </delete>
   <insert id="insert" parameterType="com.scrapy.crawl.entity.Firstprio" >
-    insert into firstprio (assettitle, assetjianjie, area, 
+    insert into firstprio (assetstitle, assetjianjie, area, 
       assetlocation, assetcangkujiegou)
-    values (#{assettitle,jdbcType=VARCHAR}, #{assetjianjie,jdbcType=VARCHAR}, #{area,jdbcType=VARCHAR}, 
+    values (#{assetstitle,jdbcType=VARCHAR}, #{assetjianjie,jdbcType=VARCHAR}, #{area,jdbcType=VARCHAR}, 
       #{assetlocation,jdbcType=VARCHAR}, #{assetcangkujiegou,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.scrapy.crawl.entity.Firstprio" >
     insert into firstprio
     <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="assettitle != null" >
-        assettitle,
+      <if test="assetstitle != null" >
+        assetstitle,
       </if>
       <if test="assetjianjie != null" >
         assetjianjie,
@@ -125,8 +125,8 @@
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="assettitle != null" >
-        #{assettitle,jdbcType=VARCHAR},
+      <if test="assetstitle != null" >
+        #{assetstitle,jdbcType=VARCHAR},
       </if>
       <if test="assetjianjie != null" >
         #{assetjianjie,jdbcType=VARCHAR},
@@ -151,8 +151,8 @@
   <update id="updateByExampleSelective" parameterType="map" >
     update firstprio
     <set >
-      <if test="record.assettitle != null" >
-        assettitle = #{record.assettitle,jdbcType=VARCHAR},
+      <if test="record.assetstitle != null" >
+        assetstitle = #{record.assetstitle,jdbcType=VARCHAR},
       </if>
       <if test="record.assetjianjie != null" >
         assetjianjie = #{record.assetjianjie,jdbcType=VARCHAR},
@@ -173,7 +173,7 @@
   </update>
   <update id="updateByExample" parameterType="map" >
     update firstprio
-    set assettitle = #{record.assettitle,jdbcType=VARCHAR},
+    set assetstitle = #{record.assetstitle,jdbcType=VARCHAR},
       assetjianjie = #{record.assetjianjie,jdbcType=VARCHAR},
       area = #{record.area,jdbcType=VARCHAR},
       assetlocation = #{record.assetlocation,jdbcType=VARCHAR},
@@ -198,7 +198,7 @@
         assetcangkujiegou = #{assetcangkujiegou,jdbcType=VARCHAR},
       </if>
     </set>
-    where assettitle = #{assettitle,jdbcType=VARCHAR}
+    where assetstitle = #{assetstitle,jdbcType=VARCHAR}
   </update>
   <update id="updateByPrimaryKey" parameterType="com.scrapy.crawl.entity.Firstprio" >
     update firstprio
@@ -206,7 +206,7 @@
       area = #{area,jdbcType=VARCHAR},
       assetlocation = #{assetlocation,jdbcType=VARCHAR},
       assetcangkujiegou = #{assetcangkujiegou,jdbcType=VARCHAR}
-    where assettitle = #{assettitle,jdbcType=VARCHAR}
+    where assetstitle = #{assetstitle,jdbcType=VARCHAR}
   </update>
   <select id="areasum" resultType="java.lang.Double">
     select sum(area) from firstprio

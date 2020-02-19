@@ -240,7 +240,6 @@
       assetwuyeleibie = #{assetwuyeleibie,jdbcType=VARCHAR}
     where assetstitle = #{assetstitle,jdbcType=VARCHAR}
   </update>
-
   <select id="areasum" resultType="java.lang.Double">
     select sum(area) from jiamin_asset
   </select>

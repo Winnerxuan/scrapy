@@ -174,73 +174,73 @@ public class EsrNewsExample {
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsIsNull() {
-            addCriterion("newtiems is null");
+        public Criteria andNewtimesIsNull() {
+            addCriterion("newtimes is null");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsIsNotNull() {
-            addCriterion("newtiems is not null");
+        public Criteria andNewtimesIsNotNull() {
+            addCriterion("newtimes is not null");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsEqualTo(String value) {
-            addCriterion("newtiems =", value, "newtiems");
+        public Criteria andNewtimesEqualTo(String value) {
+            addCriterion("newtimes =", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsNotEqualTo(String value) {
-            addCriterion("newtiems <>", value, "newtiems");
+        public Criteria andNewtimesNotEqualTo(String value) {
+            addCriterion("newtimes <>", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsGreaterThan(String value) {
-            addCriterion("newtiems >", value, "newtiems");
+        public Criteria andNewtimesGreaterThan(String value) {
+            addCriterion("newtimes >", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsGreaterThanOrEqualTo(String value) {
-            addCriterion("newtiems >=", value, "newtiems");
+        public Criteria andNewtimesGreaterThanOrEqualTo(String value) {
+            addCriterion("newtimes >=", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsLessThan(String value) {
-            addCriterion("newtiems <", value, "newtiems");
+        public Criteria andNewtimesLessThan(String value) {
+            addCriterion("newtimes <", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsLessThanOrEqualTo(String value) {
-            addCriterion("newtiems <=", value, "newtiems");
+        public Criteria andNewtimesLessThanOrEqualTo(String value) {
+            addCriterion("newtimes <=", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsLike(String value) {
-            addCriterion("newtiems like", value, "newtiems");
+        public Criteria andNewtimesLike(String value) {
+            addCriterion("newtimes like", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsNotLike(String value) {
-            addCriterion("newtiems not like", value, "newtiems");
+        public Criteria andNewtimesNotLike(String value) {
+            addCriterion("newtimes not like", value, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsIn(List<String> values) {
-            addCriterion("newtiems in", values, "newtiems");
+        public Criteria andNewtimesIn(List<String> values) {
+            addCriterion("newtimes in", values, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsNotIn(List<String> values) {
-            addCriterion("newtiems not in", values, "newtiems");
+        public Criteria andNewtimesNotIn(List<String> values) {
+            addCriterion("newtimes not in", values, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsBetween(String value1, String value2) {
-            addCriterion("newtiems between", value1, value2, "newtiems");
+        public Criteria andNewtimesBetween(String value1, String value2) {
+            addCriterion("newtimes between", value1, value2, "newtimes");
             return (Criteria) this;
         }
 
-        public Criteria andNewtiemsNotBetween(String value1, String value2) {
-            addCriterion("newtiems not between", value1, value2, "newtiems");
+        public Criteria andNewtimesNotBetween(String value1, String value2) {
+            addCriterion("newtimes not between", value1, value2, "newtimes");
             return (Criteria) this;
         }
 

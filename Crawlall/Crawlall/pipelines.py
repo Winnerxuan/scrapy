@@ -12,7 +12,7 @@ from scrapy.exceptions import DropItem
 
 class CrawlallPipeline(object):
     def process_item(self, item, spider):
-        con = pymysql.connect(host='localhost', user='root', passwd='Cndi@1234', db='scrapy', port=3306)
+        con = pymysql.connect(host='10.100.30.104', user='root', passwd='Cndi@1234', db='scrapy', port=3306)
         # 数据库游标
         cue = con.cursor()
         print("mysql connect succes")  # 测试语句，这在程序执行时非常有效的理解程序是否执行到这一步

@@ -47,7 +47,7 @@ public class WeilongController {
     @ResponseBody
     public List<WeilongNews> weilongNews(){
         WeilongNewsExample weilongYuanquExample = new WeilongNewsExample();
-        return weilongNewsMapper.selectByExample(weilongYuanquExample);
+        return weilongNewsMapper.selectByDesc();
     }
 
 }

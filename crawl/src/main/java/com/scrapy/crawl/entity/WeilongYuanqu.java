@@ -3,7 +3,7 @@ package com.scrapy.crawl.entity;
 import java.io.Serializable;
 
 public class WeilongYuanqu implements Serializable {
-    private String name;
+    private String assetstitle;
 
     private String rentarea;
 
@@ -23,12 +23,12 @@ public class WeilongYuanqu implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    public String getName() {
-        return name;
+    public String getAssetstitle() {
+        return assetstitle;
     }
 
-    public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+    public void setAssetstitle(String assetstitle) {
+        this.assetstitle = assetstitle == null ? null : assetstitle.trim();
     }
 
     public String getRentarea() {
@@ -107,7 +107,7 @@ public class WeilongYuanqu implements Serializable {
             return false;
         }
         WeilongYuanqu other = (WeilongYuanqu) that;
-        return (this.getName() == null ? other.getName() == null : this.getName().equals(other.getName()))
+        return (this.getAssetstitle() == null ? other.getAssetstitle() == null : this.getAssetstitle().equals(other.getAssetstitle()))
             && (this.getRentarea() == null ? other.getRentarea() == null : this.getRentarea().equals(other.getRentarea()))
             && (this.getArea() == null ? other.getArea() == null : this.getArea().equals(other.getArea()))
             && (this.getWarehousetype() == null ? other.getWarehousetype() == null : this.getWarehousetype().equals(other.getWarehousetype()))
@@ -122,7 +122,7 @@ public class WeilongYuanqu implements Serializable {
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + ((getName() == null) ? 0 : getName().hashCode());
+        result = prime * result + ((getAssetstitle() == null) ? 0 : getAssetstitle().hashCode());
         result = prime * result + ((getRentarea() == null) ? 0 : getRentarea().hashCode());
         result = prime * result + ((getArea() == null) ? 0 : getArea().hashCode());
         result = prime * result + ((getWarehousetype() == null) ? 0 : getWarehousetype().hashCode());
@@ -140,7 +140,7 @@ public class WeilongYuanqu implements Serializable {
         sb.append(getClass().getSimpleName());
         sb.append(" [");
         sb.append("Hash = ").append(hashCode());
-        sb.append(", name=").append(name);
+        sb.append(", assetstitle=").append(assetstitle);
         sb.append(", rentarea=").append(rentarea);
         sb.append(", area=").append(area);
         sb.append(", warehousetype=").append(warehousetype);

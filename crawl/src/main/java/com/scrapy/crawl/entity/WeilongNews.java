@@ -5,9 +5,9 @@ import java.io.Serializable;
 public class WeilongNews implements Serializable {
     private String url;
 
-    private String title;
+    private String newstitle;
 
-    private String newstime;
+    private String newtimes;
 
     private String zhaiyao;
 
@@ -21,20 +21,20 @@ public class WeilongNews implements Serializable {
         this.url = url == null ? null : url.trim();
     }
 
-    public String getTitle() {
-        return title;
+    public String getNewstitle() {
+        return newstitle;
     }
 
-    public void setTitle(String title) {
-        this.title = title == null ? null : title.trim();
+    public void setNewstitle(String newstitle) {
+        this.newstitle = newstitle == null ? null : newstitle.trim();
     }
 
-    public String getNewstime() {
-        return newstime;
+    public String getNewtimes() {
+        return newtimes;
     }
 
-    public void setNewstime(String newstime) {
-        this.newstime = newstime == null ? null : newstime.trim();
+    public void setNewtimes(String newtimes) {
+        this.newtimes = newtimes == null ? null : newtimes.trim();
     }
 
     public String getZhaiyao() {
@@ -58,8 +58,8 @@ public class WeilongNews implements Serializable {
         }
         WeilongNews other = (WeilongNews) that;
         return (this.getUrl() == null ? other.getUrl() == null : this.getUrl().equals(other.getUrl()))
-            && (this.getTitle() == null ? other.getTitle() == null : this.getTitle().equals(other.getTitle()))
-            && (this.getNewstime() == null ? other.getNewstime() == null : this.getNewstime().equals(other.getNewstime()))
+            && (this.getNewstitle() == null ? other.getNewstitle() == null : this.getNewstitle().equals(other.getNewstitle()))
+            && (this.getNewtimes() == null ? other.getNewtimes() == null : this.getNewtimes().equals(other.getNewtimes()))
             && (this.getZhaiyao() == null ? other.getZhaiyao() == null : this.getZhaiyao().equals(other.getZhaiyao()));
     }
 
@@ -68,8 +68,8 @@ public class WeilongNews implements Serializable {
         final int prime = 31;
         int result = 1;
         result = prime * result + ((getUrl() == null) ? 0 : getUrl().hashCode());
-        result = prime * result + ((getTitle() == null) ? 0 : getTitle().hashCode());
-        result = prime * result + ((getNewstime() == null) ? 0 : getNewstime().hashCode());
+        result = prime * result + ((getNewstitle() == null) ? 0 : getNewstitle().hashCode());
+        result = prime * result + ((getNewtimes() == null) ? 0 : getNewtimes().hashCode());
         result = prime * result + ((getZhaiyao() == null) ? 0 : getZhaiyao().hashCode());
         return result;
     }
@@ -81,8 +81,8 @@ public class WeilongNews implements Serializable {
         sb.append(" [");
         sb.append("Hash = ").append(hashCode());
         sb.append(", url=").append(url);
-        sb.append(", title=").append(title);
-        sb.append(", newstime=").append(newstime);
+        sb.append(", newstitle=").append(newstitle);
+        sb.append(", newtimes=").append(newtimes);
         sb.append(", zhaiyao=").append(zhaiyao);
         sb.append(", serialVersionUID=").append(serialVersionUID);
         sb.append("]");

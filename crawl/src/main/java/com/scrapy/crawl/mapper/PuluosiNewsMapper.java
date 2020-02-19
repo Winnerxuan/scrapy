@@ -2,8 +2,9 @@ package com.scrapy.crawl.mapper;
 
 import com.scrapy.crawl.entity.PuluosiNews;
 import com.scrapy.crawl.entity.PuluosiNewsExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface PuluosiNewsMapper {
     int countByExample(PuluosiNewsExample example);
@@ -27,4 +28,6 @@ public interface PuluosiNewsMapper {
     int updateByPrimaryKeySelective(PuluosiNews record);
 
     int updateByPrimaryKey(PuluosiNews record);
+
+    List<PuluosiNews> selectByDesc();
 }

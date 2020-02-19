@@ -2,8 +2,9 @@ package com.scrapy.crawl.mapper;
 
 import com.scrapy.crawl.entity.JiaminNews;
 import com.scrapy.crawl.entity.JiaminNewsExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface JiaminNewsMapper {
     int countByExample(JiaminNewsExample example);
@@ -27,4 +28,6 @@ public interface JiaminNewsMapper {
     int updateByPrimaryKeySelective(JiaminNews record);
 
     int updateByPrimaryKey(JiaminNews record);
+
+    List<JiaminNews> selectByDesc();
 }

@@ -5,7 +5,7 @@ import java.io.Serializable;
 public class EsrNews implements Serializable {
     private String newstitle;
 
-    private String newtiems;
+    private String newtimes;
 
     private String newslink;
 
@@ -21,12 +21,12 @@ public class EsrNews implements Serializable {
         this.newstitle = newstitle == null ? null : newstitle.trim();
     }
 
-    public String getNewtiems() {
-        return newtiems;
+    public String getNewtimes() {
+        return newtimes;
     }
 
-    public void setNewtiems(String newtiems) {
-        this.newtiems = newtiems == null ? null : newtiems.trim();
+    public void setNewtimes(String newtimes) {
+        this.newtimes = newtimes == null ? null : newtimes.trim();
     }
 
     public String getNewslink() {
@@ -58,7 +58,7 @@ public class EsrNews implements Serializable {
         }
         EsrNews other = (EsrNews) that;
         return (this.getNewstitle() == null ? other.getNewstitle() == null : this.getNewstitle().equals(other.getNewstitle()))
-            && (this.getNewtiems() == null ? other.getNewtiems() == null : this.getNewtiems().equals(other.getNewtiems()))
+            && (this.getNewtimes() == null ? other.getNewtimes() == null : this.getNewtimes().equals(other.getNewtimes()))
             && (this.getNewslink() == null ? other.getNewslink() == null : this.getNewslink().equals(other.getNewslink()))
             && (this.getNewszhaiyao() == null ? other.getNewszhaiyao() == null : this.getNewszhaiyao().equals(other.getNewszhaiyao()));
     }
@@ -68,7 +68,7 @@ public class EsrNews implements Serializable {
         final int prime = 31;
         int result = 1;
         result = prime * result + ((getNewstitle() == null) ? 0 : getNewstitle().hashCode());
-        result = prime * result + ((getNewtiems() == null) ? 0 : getNewtiems().hashCode());
+        result = prime * result + ((getNewtimes() == null) ? 0 : getNewtimes().hashCode());
         result = prime * result + ((getNewslink() == null) ? 0 : getNewslink().hashCode());
         result = prime * result + ((getNewszhaiyao() == null) ? 0 : getNewszhaiyao().hashCode());
         return result;
@@ -81,7 +81,7 @@ public class EsrNews implements Serializable {
         sb.append(" [");
         sb.append("Hash = ").append(hashCode());
         sb.append(", newstitle=").append(newstitle);
-        sb.append(", newtiems=").append(newtiems);
+        sb.append(", newtimes=").append(newtimes);
         sb.append(", newslink=").append(newslink);
         sb.append(", newszhaiyao=").append(newszhaiyao);
         sb.append(", serialVersionUID=").append(serialVersionUID);

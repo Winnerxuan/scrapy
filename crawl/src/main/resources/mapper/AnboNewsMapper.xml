@@ -178,4 +178,8 @@
       newszhaiyao = #{newszhaiyao,jdbcType=VARCHAR}
     where newstitle = #{newstitle,jdbcType=VARCHAR}
   </update>
+
+  <select id="selectByDesc" resultMap="BaseResultMap" >
+    select * from anbo_news where 1=1 order by newstitle DESC
+  </select>
 </mapper>

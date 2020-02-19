@@ -3,7 +3,7 @@ package com.scrapy.crawl.entity;
 import java.io.Serializable;
 
 public class FengshuAsset implements Serializable {
-    private String assettitle;
+    private String assetstitle;
 
     private String area;
 
@@ -15,12 +15,12 @@ public class FengshuAsset implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    public String getAssettitle() {
-        return assettitle;
+    public String getAssetstitle() {
+        return assetstitle;
     }
 
-    public void setAssettitle(String assettitle) {
-        this.assettitle = assettitle == null ? null : assettitle.trim();
+    public void setAssetstitle(String assetstitle) {
+        this.assetstitle = assetstitle == null ? null : assetstitle.trim();
     }
 
     public String getArea() {
@@ -67,7 +67,7 @@ public class FengshuAsset implements Serializable {
             return false;
         }
         FengshuAsset other = (FengshuAsset) that;
-        return (this.getAssettitle() == null ? other.getAssettitle() == null : this.getAssettitle().equals(other.getAssettitle()))
+        return (this.getAssetstitle() == null ? other.getAssetstitle() == null : this.getAssetstitle().equals(other.getAssetstitle()))
             && (this.getArea() == null ? other.getArea() == null : this.getArea().equals(other.getArea()))
             && (this.getAssetchuzumianji() == null ? other.getAssetchuzumianji() == null : this.getAssetchuzumianji().equals(other.getAssetchuzumianji()))
             && (this.getAssetaddress() == null ? other.getAssetaddress() == null : this.getAssetaddress().equals(other.getAssetaddress()))
@@ -78,7 +78,7 @@ public class FengshuAsset implements Serializable {
     public int hashCode() {
         final int prime = 31;
         int result = 1;
-        result = prime * result + ((getAssettitle() == null) ? 0 : getAssettitle().hashCode());
+        result = prime * result + ((getAssetstitle() == null) ? 0 : getAssetstitle().hashCode());
         result = prime * result + ((getArea() == null) ? 0 : getArea().hashCode());
         result = prime * result + ((getAssetchuzumianji() == null) ? 0 : getAssetchuzumianji().hashCode());
         result = prime * result + ((getAssetaddress() == null) ? 0 : getAssetaddress().hashCode());
@@ -92,7 +92,7 @@ public class FengshuAsset implements Serializable {
         sb.append(getClass().getSimpleName());
         sb.append(" [");
         sb.append("Hash = ").append(hashCode());
-        sb.append(", assettitle=").append(assettitle);
+        sb.append(", assetstitle=").append(assetstitle);
         sb.append(", area=").append(area);
         sb.append(", assetchuzumianji=").append(assetchuzumianji);
         sb.append(", assetaddress=").append(assetaddress);
