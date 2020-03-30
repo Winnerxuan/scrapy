@@ -45,7 +45,7 @@
         </javaClientGenerator>
         
         <!-- 要生成哪些表 -->
-        <!--<table tableName="sf_jd" domainObjectName="jingdn"></table>-->
+        <table tableName="chinaland_result_mv" domainObjectName="chinaland_result_mv"></table>
        <!-- <table tableName="anbo_yuanqu" domainObjectName="Anbo"></table>-->
 <!--        <table tableName="anbo_news" domainObjectName="AnboNews"></table>
         <table tableName="esr_assets" domainObjectName="EsrAsset"></table>
